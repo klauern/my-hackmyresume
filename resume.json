@@ -1,89 +1,111 @@
 {
   "name": "Nick Klauer",
+  "info": {
+    "label": "",
+    "image": "",
+    "brief": ""
+  },
+  "contact": {
+    "email": "klauer@gmail.com",
+    "phone": "608.330.0779",
+    "website": "http://www.nickklauer.info"
+  },
   "meta": {
     "format": "FRESH@0.1.0",
     "version": "0.1.0"
   },
-  "info": {
-    "label": "",
-    "characterClass": "",
-    "brief": "",
-    "image": ""
-  },
-  "contact": {
-    "website": "http://www.nickklauer.info",
-    "phone": "608.330.0779",
-    "email": "klauer@gmail.com",
-    "other": []
-  },
   "location": {
-    "address": "1801 Fisher St.",
     "city": "Madison",
     "region": "WI",
+    "country": "USA",
     "code": "53713",
-    "country": "USA"
+    "address": "1801 Fisher St."
   },
-  "social": [
-    {
-      "label": "twitter",
-      "network": "Twitter",
-      "user": "klauern",
-      "url": "https://twitter.com/klauern"
-    },
-    {
-      "label": "linkedin",
-      "network": "LinkedIn",
-      "user": "klauern",
-      "url": "https://linkedin.com/nick.klauer"
-    },
-    {
-      "label": "github",
-      "network": "GitHub",
-      "user": "klauern",
-      "url": "https://github.com/klauern"
-    }
-  ],
   "employment": {
-    "summary": "",
     "history": [
       {
-        "employer": "",
-        "url": "",
         "position": "",
-        "summary": "",
+        "employer": "",
+        "current": true,
         "start": "",
         "end": "",
+        "url": "",
         "keywords": [],
         "highlights": []
+      },
+      {
+        "position": "",
+        "employer": "",
+        "current": true,
+        "start": "",
+        "end": "",
+        "url": "",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "",
+        "employer": "",
+        "current": true,
+        "start": "",
+        "end": "",
+        "url": "",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "IT Analyst II",
+        "employer": "Alliant Energy Corporation",
+        "summary": "SOA Middleware Administrator and Developer",
+        "current": true,
+        "start": "2014-01-01",
+        "end": "",
+        "url": "https://www.alliantenergy.com/",
+        "keywords": [],
+        "highlights": [
+          "Responsible for maintaining 16+ Oracle Fusion Middleware (FMW) clusters",
+          "Develop tooling and applications to control, patch, deploy, and maintain various infrastructure products related to FMW systems, such as Oracle Service Bus (OSB), Oracle SOA Suite (SOA), Business Transaction Management (BTM), and Oracle Enterprise Manager - Cloud Control (OEMCC)"
+        ]
+      },
+      {
+        "position": "Team Lead - Interior Electrician (12R)",
+        "employer": "United States Army - Reserve",
+        "summary": "Headquarters Company Team Lead",
+        "current": true,
+        "start": "2011-02-01",
+        "end": "",
+        "url": "https://www.us.army.mil/",
+        "keywords": [],
+        "highlights": [
+          "Team Leader responsibilities include inventory, supply, logistics operations",
+          "Driver Trainer for Platoon",
+          "Team Lead for the company’s intelligence operations during Afghanistan Deployment from May through December 2013.  Responsible for planning route operations, investigating intelligence reports, reporting all company movements and intelligence observations to higher command, and prepared daily and weekly briefs.  Ancillary skill position acquired several months prior to deployment as additional duty"
+        ]
       }
     ]
   },
   "education": {
-    "summary": "",
     "level": "",
-    "degree": "",
     "history": [
       {
         "institution": "University of Wisconsin - Platteville",
-        "url": "https://www.uwplatt.edu",
         "start": "2001-08-01",
         "end": "2007-12-01",
         "grade": "",
-        "summary": "",
-        "curriculum": []
+        "curriculum": [],
+        "summary": ""
       }
     ]
   },
   "service": {
-    "summary": "",
     "history": [
       {
-        "flavor": "",
+        "type": "volunteer",
         "position": "",
         "organization": "",
-        "url": "",
         "start": "",
         "end": "",
+        "url": "",
         "summary": "",
         "highlights": []
       }
@@ -96,66 +118,45 @@
         "level": "",
         "skills": []
       }
-    ],
-    "list": []
+    ]
   },
-  "samples": [
-    {
-      "title": "",
-      "summary": "",
-      "url": "",
-      "date": ""
-    }
-  ],
   "writing": [
     {
       "title": "",
-      "flavor": "",
-      "date": "",
       "publisher": {
         "name": "",
         "url": ""
       },
-      "url": ""
-    }
-  ],
-  "reading": [
-    {
-      "title": "",
-      "flavor": "",
       "url": "",
-      "author": ""
+      "date": ""
     }
   ],
   "recognition": [
     {
-      "flavor": "",
-      "from": "",
       "title": "",
-      "event": "",
       "date": "",
+      "from": "",
       "summary": ""
     }
   ],
-  "references": [
+  "social": [
     {
-      "name": "",
-      "flavor": "",
-      "private": true,
-      "contact": [
-        {
-          "label": "",
-          "flavor": "",
-          "value": ""
-        }
-      ]
-    }
-  ],
-  "testimonials": [
+      "label": "Twitter",
+      "network": "Twitter",
+      "url": "https://twitter.com/klauern",
+      "user": "klauern"
+    },
     {
-      "name": "",
-      "flavor": "",
-      "quote": ""
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "url": "https://linkedin.com/nick.klauer",
+      "user": "klauern"
+    },
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/klauern",
+      "user": "klauern"
     }
   ],
   "interests": [
@@ -163,6 +164,14 @@
       "name": "",
       "summary": "",
       "keywords": []
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "",
+      "flavor": "professional",
+      "quote": "",
+      "private": false
     }
   ]
 }
