@@ -25,20 +25,20 @@
   },
   "social": [
     {
-      "label": "Twitter",
-      "network": "twitter",
+      "label": "twitter",
+      "network": "Twitter",
       "user": "klauern",
       "url": "https://twitter.com/klauern"
     },
     {
-      "label": "LinkedIn",
-      "network": "linkedin",
+      "label": "linkedin",
+      "network": "LinkedIn",
       "user": "klauern",
       "url": "https://linkedin.com/nick.klauer"
     },
     {
-      "label": "GitHub",
-      "network": "github",
+      "label": "github",
+      "network": "GitHub",
       "user": "klauern",
       "url": "https://github.com/klauern"
     }
@@ -64,10 +64,10 @@
     "degree": "",
     "history": [
       {
-        "institution": "",
-        "url": "",
-        "start": "",
-        "end": "",
+        "institution": "University of Wisconsin - Platteville",
+        "url": "https://www.uwplatt.edu",
+        "start": "2001-08-01",
+        "end": "2007-12-01",
         "grade": "",
         "summary": "",
         "curriculum": []
@@ -156,13 +156,6 @@
       "name": "",
       "flavor": "",
       "quote": ""
-    }
-  ],
-  "languages": [
-    {
-      "language": "",
-      "level": "",
-      "years": 0
     }
   ],
   "interests": [
