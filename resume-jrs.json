@@ -1,0 +1,105 @@
+{
+  "basics": {
+    "name": "Nick Klauer",
+    "label": "",
+    "summary": "",
+    "website": "http://www.nickklauer.info",
+    "phone": "608.330.0779",
+    "email": "klauer@gmail.com",
+    "picture": "",
+    "location": {
+      "address": "1801 Fisher St.",
+      "postalCode": "53713",
+      "city": "Madison",
+      "countryCode": "USA",
+      "region": "WI"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "klauern",
+        "url": "https://twitter.com/klauern"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "klauern",
+        "url": "https://linkedin.com/nick.klauer"
+      },
+      {
+        "network": "GitHub",
+        "username": "klauern",
+        "url": "https://github.com/klauern"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "",
+      "website": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Wisconsin - Platteville",
+      "gpa": "",
+      "courses": [],
+      "startDate": "2001-08-01",
+      "endDate": "2007-12-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "website": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": {
+        "name": "",
+        "url": ""
+      },
+      "releaseDate": "",
+      "website": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "summary": "",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ]
+}
