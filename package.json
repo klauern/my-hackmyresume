@@ -4,11 +4,15 @@
   "description": "my hackmyresume",
   "main": "index.js",
   "dependencies": {
-    "hackmyresume": "^1.3.1",
+    "hackmyresume": "^1.4.1",
     "jsonresume-theme-elegant": "^1.1.8",
     "jsonresume-theme-striking": "^0.0.8"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "klauern/my-hackmyresume"
+  },
   "scripts": {
     "test": "hackmyresume VALIDATE resume.json"
   },
