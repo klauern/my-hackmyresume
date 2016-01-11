@@ -2,7 +2,7 @@
   "basics": {
     "name": "Nick Klauer",
     "label": "SOA Middleware Administrator, Developer",
-    "summary": "Solving problems with software is not just code",
+    "summary": "Solving problems with software and a lot of common sense",
     "website": "http://www.nickklauer.info",
     "phone": "608.330.0779",
     "email": "klauer@gmail.com",
@@ -111,20 +111,67 @@
   ],
   "skills": [
     {
-      "name": "",
+      "name": "Java",
+      "level": "7/10",
+      "keywords": [
+        "JAX-RS",
+        "JAX-WS",
+        "Jersey",
+        "JMS",
+        "Apache CXF",
+        "Maven 3"
+      ]
+    },
+    {
+      "name": "Oracle Fusion Middleware 11g",
+      "level": "8/10",
+      "keywords": [
+        "Oracle Service Bus (OSB)",
+        "Oracle SOA Suite (SOA)",
+        "Oracle Enterprise Manager 12c (OEMCC)",
+        "Business Transaction Management 12c (BTM)",
+        "SOAP",
+        "REST"
+      ]
+    },
+    {
+      "name": "Go (Golang)",
+      "level": "6/10",
+      "keywords": [
+        "JSON",
+        "Hugo",
+        "Gorilla Mux",
+        "Goxc",
+        "Govendor",
+        "codegangsta/cli",
+        "cobra",
+        "viper",
+        "Gomail"
+      ]
+    },
+    {
+      "name": "Clojure",
+      "level": "5/10",
+      "keywords": [
+        "lamina",
+        "midje",
+        "klauern/java-watcher.clj"
+      ]
+    },
+    {
+      "name": "Ruby",
       "level": "",
       "keywords": []
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "website": "",
-      "summary": "",
-      "highlights": []
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
     }
   ],
   "awards": [
@@ -153,22 +200,25 @@
       "summary": "Awarded for deployment to Iraq in support of Operation Iraqi Freedom (OIF) in 2006."
     }
   ],
-  "publications": [
-    {
-      "name": "",
-      "publisher": {
-        "name": "",
-        "url": ""
-      },
-      "releaseDate": "",
-      "website": ""
-    }
-  ],
   "interests": [
     {
-      "name": "",
-      "summary": "",
-      "keywords": []
+      "name": "Family",
+      "summary": "I have a wife and 4 boys under the age of 10.  Life is exciting.",
+      "keywords": [
+        "family",
+        "children",
+        "wife",
+        "boys"
+      ]
+    },
+    {
+      "name": "Go (Golang)",
+      "summary": "I have been coding Go for the past 6 months.  It's an interesting language, which I'm attracted to for it's cross-platform deployment ease.",
+      "keywords": [
+        "Go",
+        "Golang",
+        "klauern/remy"
+      ]
     }
   ],
   "references": [
