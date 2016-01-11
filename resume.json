@@ -93,7 +93,7 @@
     ]
   },
   "education": {
-    "level": "",
+    "level": "Undergraduate",
     "history": [
       {
         "institution": "University of Wisconsin - Platteville",
@@ -107,7 +107,7 @@
           "Networks",
           "Relational Databases"
         ],
-        "summary": ""
+        "summary": "Bachelor of Science degree focused primarily on embedded systems, software development lifecycle practices, and various algorithm and software development in network, path finding, and data organization.  Capstone project included a multi-semester team-based project.  Led back-end ORM team that provided interface for front-end ASP.NET web-based system to communicate to database.  Processes included software requirements gathering, use case/story building, software development and testing, completed with a presentation to the computer science department."
       }
     ]
   },
