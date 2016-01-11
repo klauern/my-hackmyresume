@@ -107,6 +107,17 @@
       ],
       "startDate": "2001-08-01",
       "endDate": "2007-12-01"
+    },
+    {
+      "institution": "United States Marine Corps",
+      "gpa": "Graduate",
+      "courses": [
+        "marksmanship",
+        "servant leadership",
+        "tactics and planning"
+      ],
+      "startDate": "2004-10-13",
+      "endDate": "2005-01-08"
     }
   ],
   "skills": [
