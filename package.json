@@ -8,7 +8,8 @@
     "jsonresume-theme-elegant": "^1.1.8",
     "jsonresume-theme-striking": "^0.0.8",
     "jsonresume-theme-modern": "^0.0.18",
-    "jsonresume-theme-kendall": "^0.1.11"
+    "jsonresume-theme-kendall": "^0.1.11",
+    "jsonresume-theme-slick": " ^0.1.16"
   },
   "devDependencies": {},
   "repository": {
