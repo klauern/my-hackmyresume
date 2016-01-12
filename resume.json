@@ -30,10 +30,25 @@
                 "current": true,
                 "start": "2014-01",
                 "url": "https://www.alliantenergy.com/",
-                "keywords": [],
+                "keywords": [
+                    "JAX-RS",
+                    "WLST",
+                    "Jython",
+                    "WebLogic",
+                    "WLS",
+                    "Maven",
+                    "Java",
+                    "Golang",
+                    "REST",
+                    "SOAP 1.0/1.1",
+                    "Async / Sync"
+                ],
                 "highlights": [
                     "Responsible for maintaining 16+ Oracle Fusion Middleware (FMW) clusters",
-                    "Develop tooling and applications to control, patch, deploy, and maintain various infrastructure products related to FMW systems, such as Oracle Service Bus (OSB), Oracle SOA Suite (SOA), Business Transaction Management (BTM), and Oracle Enterprise Manager - Cloud Control (OEMCC)"
+                    "Develop tooling and applications to control, patch, deploy, and maintain various infrastructure products related to FMW systems, such as Oracle Service Bus (OSB), Oracle SOA Suite (SOA), Business Transaction Management (BTM), and Oracle Enterprise Manager - Cloud Control (OEMCC)",
+                    "Created web service wrapping [Cups4J](http://cups4j.org/), providing asynchronous printing and reporting capabilities for hundreds of daily work orders printed in remote field offices.",
+                    "Developed application to provide load balancing failover for a Web Services Cluster of WebLogic Servers for patching",
+                    "Developed over 50 different [Ansible](https://www.ansible.com) Playbooks for fielding diagnostic information, patching, and restarting most infrastructure servers under the ESB/SOA servers."
                 ]
             },
             {
