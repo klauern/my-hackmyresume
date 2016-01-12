@@ -48,7 +48,8 @@
                     "Develop tooling and applications to control, patch, deploy, and maintain various infrastructure products related to FMW systems, such as Oracle Service Bus (OSB), Oracle SOA Suite (SOA), Business Transaction Management (BTM), and Oracle Enterprise Manager - Cloud Control (OEMCC)",
                     "Created web service wrapping [Cups4J](http://cups4j.org/), providing asynchronous printing and reporting capabilities for hundreds of daily work orders printed in remote field offices.",
                     "Developed application to provide load balancing failover for a Web Services Cluster of WebLogic Servers for patching",
-                    "Developed over 50 different [Ansible](https://www.ansible.com) Playbooks for fielding diagnostic information, patching, and restarting most infrastructure servers under the ESB/SOA servers."
+                    "Developed over 50 different [Ansible](https://www.ansible.com) Playbooks for fielding diagnostic information, patching, and restarting most infrastructure servers under the ESB/SOA servers.",
+                    "Active contributor to both [StackOverflow](http://stackoverflow.com/users/7008/nick-klauer) and various [Open Source Projects](https://github.com/klauern)"
                 ]
             },
             {
