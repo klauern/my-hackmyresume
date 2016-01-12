@@ -37,8 +37,7 @@
       "company": "Alliant Energy Corporation",
       "website": "https://www.alliantenergy.com/",
       "position": "IT Analyst II",
-      "startDate": "2014-01-01",
-      "endDate": "",
+      "startDate": "2014-01",
       "summary": "SOA Middleware Administrator and Developer",
       "highlights": [
         "Responsible for maintaining 16+ Oracle Fusion Middleware (FMW) clusters",
@@ -49,8 +48,8 @@
       "company": "Alliant Energy Corporation",
       "website": "https://www.alliantenergy.com/",
       "position": "IT Analyst II - Energy Markets",
-      "startDate": "2012-07-01",
-      "endDate": "2014-01-01",
+      "startDate": "2012-07",
+      "endDate": "2014-01",
       "highlights": [
         "Maintained and developed trading software and features that were responsible for trading $2B+ annually in Megawatt-Hours (MWh) of electricity.",
         "Developed solution to reduce risk of base-load forecasting by $10,000 / day of missed or incorrectly calculated demand."
@@ -61,7 +60,6 @@
       "website": "https://www.us.army.mil/",
       "position": "Team Lead - Interior Electrician (12R)",
       "startDate": "2011-02-01",
-      "endDate": "",
       "summary": "Headquarters Company Team Lead",
       "highlights": [
         "Team Leader responsibilities include inventory, supply, logistics operations",
@@ -96,6 +94,17 @@
   ],
   "education": [
     {
+      "institution": "United States Marine Corps",
+      "gpa": "Graduate",
+      "courses": [
+        "marksmanship",
+        "servant leadership",
+        "tactics and planning"
+      ],
+      "startDate": "2004-10-13",
+      "endDate": "2005-01-08"
+    },
+    {
       "institution": "University of Wisconsin - Platteville",
       "gpa": "3.2",
       "courses": [
@@ -107,17 +116,6 @@
       ],
       "startDate": "2001-08-01",
       "endDate": "2007-12-01"
-    },
-    {
-      "institution": "United States Marine Corps",
-      "gpa": "Graduate",
-      "courses": [
-        "marksmanship",
-        "servant leadership",
-        "tactics and planning"
-      ],
-      "startDate": "2004-10-13",
-      "endDate": "2005-01-08"
     }
   ],
   "skills": [
@@ -183,6 +181,39 @@
       "name": "SQL",
       "level": "Intermediate",
       "keywords": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "United States Army Reserve",
+      "position": "12R - Interior Electrician",
+      "startDate": "2011-01-01",
+      "website": "https://www.us.army.mil/",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "United States Marine Corps Reserve",
+      "position": "0151 - Unit Administrator",
+      "startDate": "2009-01-01",
+      "endDate": "2011-01-01",
+      "website": "https://www.marines.mil",
+      "summary": "Lateral transfer to the Human Relations-side of the Marines, I was primarily involved in writing memorandums, preparing documentation for submittal, and assisted in training several hundred Marines to deploy to Iraq",
+      "highlights": [
+        "Training",
+        "NCO"
+      ]
+    },
+    {
+      "organization": "United States Marine Corps Reserve",
+      "position": "0621 - Field Radio Operator",
+      "startDate": "2004-10-13",
+      "endDate": "2009-01-01",
+      "website": "https://www.marines.mil",
+      "summary": "Served in 1st Regiment, 14th Marine Battalion, Charlie Battery.  Deployed to Iraq in 2005-2006 in support of Operation Iraqi Freedom as a convoy escort assitant under 3/14 Hotel Battery",
+      "highlights": [
+        "OIF Veteran"
+      ]
     }
   ],
   "awards": [

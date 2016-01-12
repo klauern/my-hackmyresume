@@ -28,8 +28,7 @@
         "employer": "Alliant Energy Corporation",
         "summary": "SOA Middleware Administrator and Developer",
         "current": true,
-        "start": "2014-01-01",
-        "end": "",
+        "start": "2014-01",
         "url": "https://www.alliantenergy.com/",
         "keywords": [],
         "highlights": [
@@ -40,8 +39,8 @@
       {
         "position": "IT Analyst II - Energy Markets",
         "employer": "Alliant Energy Corporation",
-        "start": "2012-07-01",
-        "end": "2014-01-01",
+        "start": "2012-07",
+        "end": "2014-01",
         "url": "https://www.alliantenergy.com/",
         "keywords": [],
         "highlights": [
@@ -55,7 +54,6 @@
         "summary": "Headquarters Company Team Lead",
         "current": true,
         "start": "2011-02-01",
-        "end": "",
         "url": "https://www.us.army.mil/",
         "keywords": [],
         "highlights": [
@@ -120,6 +118,40 @@
           "Relational Databases"
         ],
         "summary": ""
+      }
+    ]
+  },
+  "service": {
+    "summary": "Active member in the United States Army Reserve",
+    "history": [
+      {
+        "flavor": "military",
+        "position": "12R - Interior Electrician",
+        "organization": "United States Army Reserve",
+        "url": "https://www.us.army.mil/",
+        "start": "2011-01-01",
+        "summary": "",
+        "highlights": []
+      },
+      {
+          "flavor": "military",
+          "position": "0151 - Unit Administrator",
+          "organization": "United States Marine Corps Reserve",
+          "url": "https://www.marines.mil",
+          "start": "2009-01-01",
+          "end": "2011-01-01",
+          "summary": "Lateral transfer to the Human Relations-side of the Marines, I was primarily involved in writing memorandums, preparing documentation for submittal, and assisted in training several hundred Marines to deploy to Iraq",
+          "highlights": ["Training", "NCO"]
+      },
+      {
+          "flavor": "military",
+          "position": "0621 - Field Radio Operator",
+          "organization": "United States Marine Corps Reserve",
+          "url": "https://www.marines.mil",
+          "start": "2004-10-13",
+          "end": "2009-01-01",
+          "summary": "Served in 1st Regiment, 14th Marine Battalion, Charlie Battery.  Deployed to Iraq in 2005-2006 in support of Operation Iraqi Freedom as a convoy escort assitant under 3/14 Hotel Battery",
+          "highlights": ["OIF Veteran"]
       }
     ]
   },
