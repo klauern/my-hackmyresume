@@ -49,20 +49,6 @@
         ]
       },
       {
-        "position": "Team Lead - Interior Electrician (12R)",
-        "employer": "United States Army - Reserve",
-        "summary": "Headquarters Company Team Lead",
-        "current": true,
-        "start": "2011-02-01",
-        "url": "https://www.us.army.mil/",
-        "keywords": [],
-        "highlights": [
-          "Team Leader responsibilities include inventory, supply, logistics operations",
-          "Driver Trainer for Platoon",
-          "Team Lead for the company’s intelligence operations during Afghanistan Deployment from May through December 2013.  Responsible for planning route operations, investigating intelligence reports, reporting all company movements and intelligence observations to higher command, and prepared daily and weekly briefs.  Ancillary skill position acquired several months prior to deployment as additional duty"
-        ]
-      },
-      {
         "position": "IT Analyst I - Enterprise Application Integration (EAI)",
         "employer": "Alliant Energy Corporation",
         "start": "2007-06-01",
@@ -73,51 +59,24 @@
           "Software developer for software integrations connecting various software products together with employee, financial, security, and supply chain data.",
           "Developed 30+ integrations using database queries, SOAP-based web services, and extensive use of message-based systems."
         ]
-      },
-      {
-        "position": "Unit Administrator (0151)",
-        "employer": "United States Marine Corps - Reserve",
-        "start": "2003-10-01",
-        "end": "2010-12-01",
-        "url": "https://www.marines.mil",
-        "keywords": [],
-        "highlights": [
-          "Maintained unit records for 150-300 Marines.",
-          "Lead multiple teams in physical training activities.",
-          "Mentored subordinate Marines in career planning, both for the military path as well as civilian career opportunities.",
-          "Deployed to Iraq as part of Operation Iraqi Freedom (OIF) in 2006."
-        ]
       }
     ]
   },
   "education": {
-    "level": "",
+    "level": "Undergraduate",
     "history": [
       {
-        "institution": "United States Marine Corps",
-        "start": "2004-10-13",
-        "end": "2005-01-08",
-        "grade": "Graduate",
-        "curriculum": [
-          "marksmanship",
-          "servant leadership",
-          "tactics and planning"
-        ],
-        "summary": ""
-      },
-      {
         "institution": "University of Wisconsin - Platteville",
-        "start": "2001-08-01",
-        "end": "2007-12-01",
-        "grade": "3.2",
+        "start": "2001-08",
+        "end": "2007-12",
         "curriculum": [
-          "Embedded System Design",
+          "Embedded Systems Design",
           "Data Structures",
-          "Software Development Lifecycle",
-          "Networks",
+          "Software Development Lifecycle Strategies",
+          "Networking / IP Stack",
           "Relational Databases"
         ],
-        "summary": ""
+        "summary": "Bachelor of Science degree focused primarily on embedded systems, software development lifecycle practices, and various algorithm and software development in network, path finding, and data organization.  Capstone project included a multi-semester team-based project.  Led back-end ORM team that provided interface for front-end ASP.NET web-based system to communicate to database.  Processes included software requirements gathering, use case/story building, software development and testing, completed with a presentation to the computer science department."
       }
     ]
   },
@@ -126,22 +85,31 @@
     "history": [
       {
         "flavor": "military",
-        "position": "12R - Interior Electrician",
+        "position": "Team Lead - Interior Electrician (12R)",
         "organization": "United States Army Reserve",
         "url": "https://www.us.army.mil/",
         "start": "2011-01-01",
-        "summary": "",
-        "highlights": []
+        "summary": "Currently a Team Leader for Headquarters Company in the 372nd Engineer Company.",
+        "highlights": [
+          "Team Leader responsibilities include inventory, supply, logistics operations",
+          "Driver Trainer for Platoon",
+          "Team Lead for the company’s intelligence operations during Afghanistan Deployment from May through December 2013.  Responsible for planning route operations, investigating intelligence reports, reporting all company movements and intelligence observations to higher command, and prepared daily and weekly briefs.  Ancillary skill position acquired several months prior to deployment as additional duty"
+        ]
       },
       {
           "flavor": "military",
-          "position": "0151 - Unit Administrator",
+          "position": "Unit Administrator (0151)",
           "organization": "United States Marine Corps Reserve",
           "url": "https://www.marines.mil",
           "start": "2009-01-01",
           "end": "2011-01-01",
           "summary": "Lateral transfer to the Human Relations-side of the Marines, I was primarily involved in writing memorandums, preparing documentation for submittal, and assisted in training several hundred Marines to deploy to Iraq",
-          "highlights": ["Training", "NCO"]
+          "highlights": [
+            "Maintained unit records for 150-300 Marines.",
+            "Lead multiple teams in physical training activities.",
+            "Deployed to Afghanistan in 2013",
+            "Mentored subordinate Marines in career planning, both for the military path as well as civilian career opportunities."
+          ]
       },
       {
           "flavor": "military",
@@ -151,7 +119,9 @@
           "start": "2004-10-13",
           "end": "2009-01-01",
           "summary": "Served in 1st Regiment, 14th Marine Battalion, Charlie Battery.  Deployed to Iraq in 2005-2006 in support of Operation Iraqi Freedom as a convoy escort assitant under 3/14 Hotel Battery",
-          "highlights": ["OIF Veteran"]
+          "highlights": [
+              "Deployed to Iraq as part of Operation Iraqi Freedom (OIF) in 2006."
+          ]
       }
     ]
   },
