@@ -7,7 +7,7 @@
     },
     "contact": {
         "email": "klauer@gmail.com",
-        "phone": "608.330.0779",
+        "phone": "608.318.3377",
         "website": "http://www.nickklauer.info"
     },
     "meta": {
@@ -42,7 +42,14 @@
                 "start": "2012-07",
                 "end": "2014-01",
                 "url": "https://www.alliantenergy.com/",
-                "keywords": [],
+                "keywords": [
+                    "Energy Markets",
+                    "PCI GenManager / GenSystem",
+                    "LMP",
+                    "MISO",
+                    "DA/RT",
+                    "Wind Forecasting"
+                ],
                 "highlights": [
                     "Maintained and developed trading software and features that were responsible for trading $2B+ annually in Megawatt-Hours (MWh) of electricity.",
                     "Developed solution to reduce risk of base-load forecasting by $10,000 / day of missed or incorrectly calculated demand."
@@ -54,7 +61,12 @@
                 "start": "2007-06-01",
                 "end": "2010-07-01",
                 "url": "https://www.alliantenergy.com/",
-                "keywords": [],
+                "keywords": [
+                    "SUN Java Composite Application Suite (JCAPS) 5.1.2",
+                    "SUN JCAPS 6.2",
+                    "SUN Glassfish 2.0, 3.0",
+                    "Jenkins / Hudson CI",
+                    "Apache Maven 3.0"],
                 "highlights": [
                     "Software developer for software integrations connecting various software products together with employee, financial, security, and supply chain data.",
                     "Developed 30+ integrations using database queries, SOAP-based web services, and extensive use of message-based systems."
