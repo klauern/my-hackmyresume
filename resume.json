@@ -93,8 +93,20 @@
     ]
   },
   "education": {
-    "level": "Undergraduate",
+    "level": "",
     "history": [
+      {
+        "institution": "United States Marine Corps",
+        "start": "2004-10-13",
+        "end": "2005-01-08",
+        "grade": "Graduate",
+        "curriculum": [
+          "marksmanship",
+          "servant leadership",
+          "tactics and planning"
+        ],
+        "summary": ""
+      },
       {
         "institution": "University of Wisconsin - Platteville",
         "start": "2001-08-01",
@@ -107,19 +119,7 @@
           "Networks",
           "Relational Databases"
         ],
-        "summary": "Bachelor of Science degree focused primarily on embedded systems, software development lifecycle practices, and various algorithm and software development in network, path finding, and data organization.  Capstone project included a multi-semester team-based project.  Led back-end ORM team that provided interface for front-end ASP.NET web-based system to communicate to database.  Processes included software requirements gathering, use case/story building, software development and testing, completed with a presentation to the computer science department."
-      },
-      {
-          "institution": "United States Marine Corps",
-          "start": "2004-10-13",
-          "end": "2005-01-08",
-          "grade": "Graduate",
-          "curriculum": [
-              "marksmanship",
-              "servant leadership",
-              "tactics and planning"
-          ],
-          "summary": "While boot camp itself was only 12 weeks, the continuous leadership training, military occupational specialty courses (MOS) in several fields added a wealth of additional leadership skills and intangibles that I could not have gotten anywhere else"
+        "summary": ""
       }
     ]
   },
@@ -127,39 +127,65 @@
     "sets": [
       {
         "name": "Java",
-        "level": "7/10",
-        "skills": ["JAX-RS", "JAX-WS", "Jersey", "JMS", "Apache CXF", "Maven 3"]
+        "level": "Advanced",
+        "skills": [
+          "JAX-RS",
+          "JAX-WS",
+          "Jersey",
+          "JMS",
+          "Apache CXF",
+          "Maven 3"
+        ]
       },
       {
         "name": "Oracle Fusion Middleware 11g",
-        "level": "8/10",
-        "skills": ["Oracle Service Bus (OSB)", "Oracle SOA Suite (SOA)",
-        "Oracle Enterprise Manager 12c (OEMCC)", "Business Transaction Management 12c (BTM)",
-        "SOAP", "REST"]
+        "level": "Advanced",
+        "skills": [
+          "Oracle Service Bus (OSB)",
+          "Oracle SOA Suite (SOA)",
+          "Oracle Enterprise Manager 12c (OEMCC)",
+          "Business Transaction Management 12c (BTM)",
+          "SOAP",
+          "REST"
+        ]
       },
       {
         "name": "Go (Golang)",
-        "level": "6/10",
-        "skills": ["JSON", "Hugo", "Gorilla Mux", "Goxc", "Govendor", "codegangsta/cli", "cobra", "viper", "Gomail"]
+        "level": "Beginner",
+        "skills": [
+          "JSON",
+          "Hugo",
+          "Gorilla Mux",
+          "Goxc",
+          "Govendor",
+          "codegangsta/cli",
+          "cobra",
+          "viper",
+          "Gomail"
+        ]
       },
-            {
+      {
         "name": "Clojure",
-        "level": "5/10",
-        "skills": ["lamina", "midje", "klauern/java-watcher.clj"]
+        "level": "Beginner",
+        "skills": [
+          "lamina",
+          "midje",
+          "klauern/java-watcher.clj"
+        ]
       },
       {
         "name": "Ruby",
-        "level": "",
+        "level": "Intermediate",
         "skills": []
       },
       {
         "name": "Python",
-        "level": "",
+        "level": "Beginner",
         "skills": []
       },
       {
         "name": "SQL",
-        "level": "",
+        "level": "Intermediate",
         "skills": []
       }
     ]
@@ -214,12 +240,21 @@
     {
       "name": "Family",
       "summary": "I have a wife and 4 boys under the age of 10.  Life is exciting.",
-      "keywords": ["family", "children", "wife", "boys"]
+      "keywords": [
+        "family",
+        "children",
+        "wife",
+        "boys"
+      ]
     },
     {
-        "name": "Go (Golang)",
-        "summary": "I have been coding Go for the past 6 months.  It's an interesting language, which I'm attracted to for it's cross-platform deployment ease.",
-        "keywords": ["Go", "Golang", "klauern/remy"]
+      "name": "Go (Golang)",
+      "summary": "I have been coding Go for the past 6 months.  It's an interesting language, which I'm attracted to for it's cross-platform deployment ease.",
+      "keywords": [
+        "Go",
+        "Golang",
+        "klauern/remy"
+      ]
     }
   ],
   "testimonials": [

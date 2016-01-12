@@ -123,7 +123,7 @@
   "skills": [
     {
       "name": "Java",
-      "level": "7/10",
+      "level": "Advanced",
       "keywords": [
         "JAX-RS",
         "JAX-WS",
@@ -135,7 +135,7 @@
     },
     {
       "name": "Oracle Fusion Middleware 11g",
-      "level": "8/10",
+      "level": "Advanced",
       "keywords": [
         "Oracle Service Bus (OSB)",
         "Oracle SOA Suite (SOA)",
@@ -147,7 +147,7 @@
     },
     {
       "name": "Go (Golang)",
-      "level": "6/10",
+      "level": "Beginner",
       "keywords": [
         "JSON",
         "Hugo",
@@ -162,7 +162,7 @@
     },
     {
       "name": "Clojure",
-      "level": "5/10",
+      "level": "Beginner",
       "keywords": [
         "lamina",
         "midje",
@@ -171,17 +171,17 @@
     },
     {
       "name": "Ruby",
-      "level": "",
+      "level": "Intermediate",
       "keywords": []
     },
     {
       "name": "Python",
-      "level": "",
+      "level": "Beginner",
       "keywords": []
     },
     {
       "name": "SQL",
-      "level": "",
+      "level": "Intermediate",
       "keywords": []
     }
   ],
