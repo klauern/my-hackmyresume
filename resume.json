@@ -41,7 +41,10 @@
                     "Golang",
                     "REST",
                     "SOAP 1.0/1.1",
-                    "Async / Sync"
+                    "Async / Sync",
+                    "SoapUI",
+                    "Groovy",
+                    "JAX-WS"
                 ],
                 "highlights": [
                     "Responsible for maintaining 16+ Oracle Fusion Middleware (FMW) clusters",
