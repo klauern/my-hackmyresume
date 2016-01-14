@@ -49,7 +49,8 @@
                     "Created web service wrapping [Cups4J](http://cups4j.org/), providing asynchronous printing and reporting capabilities for hundreds of daily work orders printed in remote field offices.",
                     "Developed application to provide load balancing failover for a Web Services Cluster of WebLogic Servers for patching",
                     "Developed over 50 different [Ansible](https://www.ansible.com) Playbooks for fielding diagnostic information, patching, and restarting most infrastructure servers under the ESB/SOA servers.",
-                    "Active contributor to both [StackOverflow](http://stackoverflow.com/users/7008/nick-klauer) and various [Open Source Projects](https://github.com/klauern)"
+                    "Active contributor to both [StackOverflow](http://stackoverflow.com/users/7008/nick-klauer) and various [Open Source Projects](https://github.com/klauern)",
+                    "Created training, documentation, and helper libraries for the open source version of [SoapUI](https://www.soapui.org) to assist new developers with SOAP and REST-based service development and testing.  Training included Groovy scripting, JDBC-based testing, and Asynchronous WS-Addressing service call testing."
                 ]
             },
             {
