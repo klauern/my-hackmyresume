@@ -1,26 +1,50 @@
 {
     "name": "Nick Klauer",
+    "meta": {
+        "format": "FRESH@0.3.0",
+        "version": "0.1.0"
+    },
     "info": {
         "label": "SOA Middleware Administrator, Developer",
-        "image": "profile.jpeg",
-        "brief": "Solving problems with software and a lot of common sense"
+        "brief": "Solving problems with software and a lot of common sense",
+        "image": "profile.jpeg"
     },
     "contact": {
         "email": "klauer@gmail.com",
         "phone": "608.318.3377",
-        "website": "http://www.nickklauer.info"
-    },
-    "meta": {
-        "format": "FRESH@0.1.0",
-        "version": "0.1.0"
+        "website": "http://www.nickklauer.info",
+
+        "other": []
     },
     "location": {
+        "address": "1801 Fisher Street",
         "city": "Madison",
         "region": "WI",
         "country": "USA",
         "code": "53713"
     },
+    "social": [
+        {
+            "label": "Twitter",
+            "network": "Twitter",
+            "url": "https://twitter.com/klauern",
+            "user": "klauern"
+        },
+        {
+            "label": "LinkedIn",
+            "network": "LinkedIn",
+            "url": "https://linkedin.com/nick.klauer",
+            "user": "klauern"
+        },
+        {
+            "label": "GitHub",
+            "network": "GitHub",
+            "url": "https://github.com/klauern",
+            "user": "klauern"
+        }
+    ],
     "employment": {
+        "summary": "",
         "history": [
             {
                 "position": "IT Analyst II",
@@ -85,7 +109,8 @@
                     "SUN JCAPS 6.2",
                     "SUN Glassfish 2.0, 3.0",
                     "Jenkins / Hudson CI",
-                    "Apache Maven 3.0"],
+                    "Apache Maven 3.0"
+                ],
                 "highlights": [
                     "Software developer for software integrations connecting various software products together with employee, financial, security, and supply chain data.",
                     "Developed 30+ integrations using database queries, SOAP-based web services, and extensive use of message-based systems."
@@ -93,13 +118,29 @@
             }
         ]
     },
+    "projects": [
+        {
+            "title": "Awesome Project #1",
+            "category": "FOSS",
+            "url": "http://project-page.org",
+            "repo": "https://project-repo.com",
+            "media": [],
+            "role": "Contributor",
+            "summary": "A summary of your role on the project. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
+            "description": "A description of the project. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
+            "highlights": [],
+            "keywords": []
+        }
+    ],
     "education": {
         "level": "Undergraduate",
+        "degree": "Bachelor of Science - Software Engineering",
         "history": [
             {
                 "institution": "University of Wisconsin - Platteville",
                 "start": "2001-08",
                 "end": "2007-12",
+                "summary": "One of the first universities to offer an accredited Software Engineering major, we were often in classes that had no prior curriculum.  This positioned us to a lot of new techniques, technologies, and lessons that previous students had not been provided before working in the industry.",
                 "curriculum": [
                     "Embedded Systems Design",
                     "Data Structures",
@@ -224,6 +265,44 @@
             }
         ]
     },
+    "samples": [
+        {
+            "title": "Work Sample",
+            "summary": "Description or summary of the work sample.",
+            "url": "http://project-repo.com",
+            "date": "2015"
+        }
+    ],
+    "writing": [
+        {
+            "title": "",
+            "flavor": "",
+            "date": "",
+            "publisher": {
+                "name": "",
+                "url": ""
+            },
+            "url": ""
+        }
+    ],
+    "reading": [
+        {
+            "title": "Other Copenhagens",
+            "flavor": "book",
+            "url": "http://www.amazon.com/Other-Copenhagens-And-Stories/dp/0984749209",
+            "author": "Edmund Jorgensen"
+        },
+        {
+            "title": "r/programming",
+            "flavor": "website",
+            "url": "https://www.reddit.com/r/programming"
+        },
+        {
+            "title": "Hacker News",
+            "flavor": "website",
+            "url": "https://news.ycombinator.com/"
+        }
+    ],
     "recognition": [
         {
             "title": "Army Commendation Medal - 3rd Award",
@@ -250,24 +329,42 @@
             "summary": "Awarded for deployment to Iraq in support of Operation Iraqi Freedom (OIF) in 2006."
         }
     ],
-    "social": [
+    "references": [
         {
-            "label": "Twitter",
-            "network": "Twitter",
-            "url": "https://twitter.com/klauern",
-            "user": "klauern"
+            "name": "John Doe",
+            "flavor": "professional",
+            "private": true,
+            "contact": [
+                {
+                    "flavor": "email",
+                    "value": "john.doe@somewhere.com"
+                }
+            ]
         },
         {
-            "label": "LinkedIn",
-            "network": "LinkedIn",
-            "url": "https://linkedin.com/nick.klauer",
-            "user": "klauern"
-        },
+            "name": "Jane Q. Fullstacker",
+            "flavor": "technical",
+            "private": true,
+            "contact": [
+                {
+                    "flavor": "email",
+                    "value": "jane.fullstacker@somewhere.com"
+                }
+            ]
+        }
+    ],
+    "testimonials": [
         {
-            "label": "GitHub",
-            "network": "GitHub",
-            "url": "https://github.com/klauern",
-            "user": "klauern"
+            "name": "Matthew Bell - Sgt U.S. Army (Ret.)",
+            "flavor": "professional",
+            "quote": "I've known Nick for several years and a tour in Afghanistan. As long as I've known him, Nick has been a hard worker that always completed his tasks in a timely manner. He's very knowledgeable in the software development field and is always looking to expand upon his litany of language knowledge to other coding languages, techniques and best practices.",
+            "private": false
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "level": "native"
         }
     ],
     "interests": [
@@ -289,14 +386,6 @@
                 "Golang",
                 "[klauern/remy](https://github.com/klauern/remy)"
             ]
-        }
-    ],
-    "testimonials": [
-        {
-            "name": "Matthew Bell - Sgt U.S. Army (Ret.)",
-            "flavor": "professional",
-            "quote": "I've known Nick for several years and a tour in Afghanistan. As long as I've known him, Nick has been a hard worker that always completed his tasks in a timely manner. He's very knowledgeable in the software development field and is always looking to expand upon his litany of language knowledge to other coding languages, techniques and best practices.",
-            "private": false
         }
     ]
 }
