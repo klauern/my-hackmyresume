@@ -273,36 +273,36 @@
             "date": "2015"
         }
     ],
-    "writing": [
-        {
-            "title": "",
-            "flavor": "",
-            "date": "",
-            "publisher": {
-                "name": "",
-                "url": ""
-            },
-            "url": ""
-        }
-    ],
-    "reading": [
-        {
-            "title": "Other Copenhagens",
-            "flavor": "book",
-            "url": "http://www.amazon.com/Other-Copenhagens-And-Stories/dp/0984749209",
-            "author": "Edmund Jorgensen"
-        },
-        {
-            "title": "r/programming",
-            "flavor": "website",
-            "url": "https://www.reddit.com/r/programming"
-        },
-        {
-            "title": "Hacker News",
-            "flavor": "website",
-            "url": "https://news.ycombinator.com/"
-        }
-    ],
+    //"writing": [
+        //{
+            //"title": "",
+            //"flavor": "",
+            //"date": "",
+            //"publisher": {
+                //"name": "",
+                //"url": ""
+            //},
+            //"url": ""
+        //}
+    //],
+    //"reading": [
+        //{
+            //"title": "Other Copenhagens",
+            //"flavor": "book",
+            //"url": "http://www.amazon.com/Other-Copenhagens-And-Stories/dp/0984749209",
+            //"author": "Edmund Jorgensen"
+        //},
+        //{
+            //"title": "r/programming",
+            //"flavor": "website",
+            //"url": "https://www.reddit.com/r/programming"
+        //},
+        //{
+            //"title": "Hacker News",
+            //"flavor": "website",
+            //"url": "https://news.ycombinator.com/"
+        //}
+    //],
     "recognition": [
         {
             "title": "Army Commendation Medal - 3rd Award",
