@@ -11,7 +11,9 @@
     "jsonresume-theme-kendall": "^0.1.11",
     "jsonresume-theme-slick": " ^0.1.16"
   },
-  "devDependencies": {},
+  "devDependencies": {
+      "http-server": "^0.9.0"
+  },
   "repository": {
     "type": "git",
     "url": "klauern/my-hackmyresume"
