@@ -4,8 +4,8 @@
   "description": "my hackmyresume",
   "main": "index.js",
   "dependencies": {
-    "hackmyresume": "^1.4.1",
-    "jsonresume-theme-elegant": "^1.1.8",
+    "hackmyresume": "^1.8.0",
+    "jsonresume-theme-elegant": "^1.1.9",
     "jsonresume-theme-striking": "^0.0.8",
     "jsonresume-theme-modern": "^0.0.18",
     "jsonresume-theme-kendall": "^0.1.11",
