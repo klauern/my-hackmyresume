@@ -25,6 +25,18 @@
     },
     "social": [
         {
+            "label": "Home",
+            "network": "home",
+            "url": "https://www.nickklauer.info",
+            "user": ""
+        },
+        {
+            "label": "GitHub",
+            "network": "GitHub",
+            "url": "https://github.com/klauern",
+            "user": "klauern"
+        },
+        {
             "label": "Twitter",
             "network": "Twitter",
             "url": "https://twitter.com/klauern",
@@ -34,18 +46,6 @@
             "label": "LinkedIn",
             "network": "LinkedIn",
             "url": "https://linkedin.com/nick.klauer",
-            "user": "klauern"
-        },
-        {
-            "label": "GitHub",
-            "network": "GitHub",
-            "url": "https://github.com/klauern",
-            "user": "klauern"
-        },
-        {
-            "label": "GitHub",
-            "network": "GitHub",
-            "url": "https://github.com/klauern",
             "user": "klauern"
         }
     ],
