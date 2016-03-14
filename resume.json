@@ -17,6 +17,7 @@
         "other": []
     },
     "location": {
+        "address": "",
         "city": "Madison",
         "region": "WI",
         "country": "USA",
@@ -33,6 +34,12 @@
             "label": "LinkedIn",
             "network": "LinkedIn",
             "url": "https://linkedin.com/nick.klauer",
+            "user": "klauern"
+        },
+        {
+            "label": "GitHub",
+            "network": "GitHub",
+            "url": "https://github.com/klauern",
             "user": "klauern"
         },
         {
