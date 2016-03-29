@@ -13,7 +13,6 @@
         "email": "klauer@gmail.com",
         "phone": "608.318.3377",
         "website": "http://www.nickklauer.info",
-
         "other": []
     },
     "location": {
@@ -76,13 +75,13 @@
                     "JAX-WS"
                 ],
                 "highlights": [
-                    "Responsible for maintaining 16+ Oracle Fusion Middleware (FMW) clusters",
+                    "Primary responsibility for maintaining 16+ Oracle Fusion Middleware (FMW) clusters and nearly 300 servers, both clustered and single-instance",
                     "Develop tooling and applications to control, patch, deploy, and maintain various infrastructure products related to FMW systems, such as Oracle Service Bus (OSB), Oracle SOA Suite (SOA), Business Transaction Management (BTM), and Oracle Enterprise Manager - Cloud Control (OEMCC)",
-                    "Created web service wrapping [Cups4J](http://cups4j.org/), providing asynchronous printing and reporting capabilities for hundreds of daily work orders printed in remote field offices.",
-                    "Developed application to provide load balancing failover for a Web Services Cluster of WebLogic Servers for patching",
-                    "Developed over 50 different [Ansible](https://www.ansible.com) Playbooks for fielding diagnostic information, patching, and restarting most infrastructure servers under the ESB/SOA servers.",
+                    "Created web services wrapping Cups4J, providing asynchronous printing and reporting capabilities for hundreds of daily work orders printed in remote field offices",
+                    "Developed applications to provide load balancing failover for a Web Services Cluster of WebLogic Servers for patching",
+                    "Developed over 100 different [Ansible](https://www.ansible.com) Playbooks for fielding diagnostic information, patching, and restarting most infrastructure servers under the ESB/SOA servers",
                     "Active contributor to both [StackOverflow](http://stackoverflow.com/users/7008/nick-klauer) and various [Open Source Projects](https://github.com/klauern)",
-                    "Created training, documentation, and helper libraries for the open source version of [SoapUI](https://www.soapui.org) to assist new developers with SOAP and REST-based service development and testing.  Training included Groovy scripting, JDBC-based testing, and Asynchronous WS-Addressing service call testing."
+                    "Created training, documentation, and helper libraries for the open source version of [SoapUI](https://www.soapui.org) to assist new developers with SOAP and REST-based service development and testing.  Training included Groovy scripting, JDBC-based testing, and Asynchronous WS-Addressing service call testing"
                 ]
             },
             {
@@ -234,14 +233,15 @@
                 "level": "Beginner",
                 "skills": [
                     "klauern/remy",
+                    "klauern/trackello",
                     "JSON",
                     "Hugo",
                     "Gorilla Mux",
                     "Goxc",
                     "Govendor",
                     "codegangsta/cli",
-                    "cobra",
-                    "viper",
+                    "spf13/cobra",
+                    "spf13/viper",
                     "Gomail"
                 ]
             },
