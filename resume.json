@@ -12,7 +12,7 @@
     "contact": {
         "email": "klauer@gmail.com",
         "phone": "608.318.3377",
-        "website": "http://www.nickklauer.info",
+        "website": "https://www.nickklauer.info",
         "other": []
     },
     "location": {
@@ -118,7 +118,8 @@
                 ],
                 "highlights": [
                     "Software developer for software integrations connecting various software products together with employee, financial, security, and supply chain data.",
-                    "Developed 30+ integrations using database queries, SOAP-based web services, and extensive use of message-based systems."
+                    "Developed 30+ integrations using database queries, SOAP-based web services, and extensive use of message-based systems.",
+                    "Coordinated meetings, integration plans, documentation, testing, and validation of data integration layers with multiple stakeholders."
                 ]
             }
         ]
@@ -213,7 +214,8 @@
                     "Jersey",
                     "JMS",
                     "Apache CXF",
-                    "Maven 3"
+                    "Maven 3",
+                    "Java 7/8"
                 ]
             },
             {
@@ -234,6 +236,7 @@
                 "skills": [
                     "klauern/remy",
                     "klauern/trackello",
+                    "klauern/go-netgearlogs",
                     "JSON",
                     "Hugo",
                     "Gorilla Mux",
@@ -256,7 +259,7 @@
             },
             {
                 "name": "Ruby",
-                "level": "Intermediate",
+                "level": "Beginner",
                 "skills": []
             },
             {
@@ -307,13 +310,13 @@
     ],
     "references": [
         {
-            "name": "John Doe",
+            "name": "Matthew Bell",
             "flavor": "professional",
             "private": true,
             "contact": [
                 {
                     "flavor": "email",
-                    "value": "john.doe@somewhere.com"
+                    "value": "matthew.j.bell1@gmail.com"
                 }
             ]
         },
@@ -362,6 +365,13 @@
                 "Golang",
                 "[klauern/remy](https://github.com/klauern/remy)",
                 "[klauern/trackello](https://github.com/klauern/trackello)"
+            ]
+        },
+        {
+            "name": "Ansible",
+            "summary": "I have a keen interest in what is often referred to as DevOps, in terms of automation of processes, testing, and deployment.  I have done a number of automation projects related to the build/patch/deploy cycle at my work, and would love to push these tools to other teams and organizations.",
+            "keywords": [
+                "Ansible"
             ]
         }
     ]
