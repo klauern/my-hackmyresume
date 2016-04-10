@@ -15,7 +15,11 @@
     "url": "klauern/my-hackmyresume"
   },
   "scripts": {
-    "test": "hackmyresume VALIDATE resume.json"
+    "test": [
+        "hackmyresume VALIDATE resume.json",
+        "hackmyresume VALIDATE profile-photo.json",
+        "hackmyresume VALIDATE contact-info.json"
+    ]
   },
   "keywords": [
     "hackmyresume"
