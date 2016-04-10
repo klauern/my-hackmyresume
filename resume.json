@@ -61,13 +61,13 @@
                     "JAX-WS"
                 ],
                 "highlights": [
-                    "Primary responsibility for maintaining 16+ Oracle Fusion Middleware (FMW) clusters and nearly 300 servers, both clustered and single-instance",
-                    "Develop tooling and applications to control, patch, deploy, and maintain various infrastructure products related to FMW systems, such as Oracle Service Bus (OSB), Oracle SOA Suite (SOA), Business Transaction Management (BTM), and Oracle Enterprise Manager - Cloud Control (OEMCC)",
-                    "Created web services wrapping Cups4J, providing asynchronous printing and reporting capabilities for hundreds of daily work orders printed in remote field offices",
-                    "Developed applications to provide load balancing failover for a Web Services Cluster of WebLogic Servers for patching",
-                    "Developed over 100 different [Ansible](https://www.ansible.com) Playbooks for fielding diagnostic information, patching, and restarting most infrastructure servers under the ESB/SOA servers",
-                    "Active contributor to both [StackOverflow](http://stackoverflow.com/users/7008/nick-klauer) and various [Open Source Projects](https://github.com/klauern)",
-                    "Created training, documentation, and helper libraries for the open source version of [SoapUI](https://www.soapui.org) to assist new developers with SOAP and REST-based service development and testing.  Training included Groovy scripting, JDBC-based testing, and Asynchronous WS-Addressing service call testing"
+                    "Primary responsibility for maintaining 16+ Oracle Fusion Middleware (FMW) clusters and nearly 300 servers, both clustered and single-instance nodes.",
+                    "Develop tooling and stand-alone applications to control, patch, deploy, and otherwise maintain infrastructure products related to FMW systems, such as Oracle Service Bus (OSB), Oracle SOA Suite (SOA), Business Transaction Management (BTM), and Oracle Enterprise Manager - Cloud Control (OEMCC).",
+                    "Created web services wrapping Cups4J, providing asynchronous printing and reporting capabilities for hundreds of daily work orders printed in remote field offices.",
+                    "Developed applications to provide load balancing failover for a Web Services Cluster of WebLogic Servers for patching.",
+                    "Developed over 100 different [Ansible](https://www.ansible.com) Playbooks for fielding diagnostic information, patching, and restarting most infrastructure servers under the ESB/SOA servers.",
+                    "Active contributor to both [StackOverflow](http://stackoverflow.com/users/7008/nick-klauer) and various [Open Source Projects](https://github.com/klauern).",
+                    "Created training, documentation, and helper libraries for the open source version of [SoapUI](https://www.soapui.org) to assist new developers with SOAP and REST-based service development and testing.  Training included Groovy scripting, JDBC-based testing, and Asynchronous WS-Addressing service call testing."
                 ]
             },
             {
@@ -86,7 +86,8 @@
                 ],
                 "highlights": [
                     "Maintained and developed trading software and features that were responsible for trading $2B+ annually in Megawatt-Hours (MWh) of electricity.",
-                    "Developed solution to reduce risk of base-load forecasting by $10,000 / day of missed or incorrectly calculated demand."
+                    "Developed solution to reduce risk of base-load forecasting by $10,000 / day of missed or incorrectly calculated demand.",
+                    "Was primary developer and on-call for product that was used almost exclusively by the front office trading staff, handling most service issues on a rotating 24x7 schedule."
                 ]
             },
             {
@@ -112,16 +113,21 @@
     },
     "projects": [
         {
-            "title": "Awesome Project #1",
+            "title": "Remy",
             "category": "FOSS",
-            "url": "http://project-page.org",
-            "repo": "https://project-repo.com",
+            "url": "https://github.com/klauern/remy",
+            "repo": "https://github.com/klauern/remy",
             "media": [],
-            "role": "Contributor",
-            "summary": "A summary of your role on the project. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
-            "description": "A description of the project. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
+            "role": "Developer",
+            "summary": "CLI for interacting with the WebLogic Server RESTful Management Services.",
+            "description": "`remy` is an application I wrote to learn a little about [golang](http://www.golang.org) as well as to itch a little scratch I had with WebLogic servers.  WebLogic has a feature called *[RESTful Management Extensions](http://docs.oracle.com/cd/E23943_01/web.1111/e24682/toc.htm#RESTS149)*, which lets you query an AdminServer's domain for various pieces of information it knows about Servers, Clusters, Datasources, and Applications that it is resposnible for.  This is pretty useful if you are interested in writing a lot of small scripts to quickly get the status of some datasource in your cluster without having to resort to connecting, setting up, and maintaining your own copy of a WebLogic Scripting Tool (WLST) interface.A description of the project.",
             "highlights": [],
-            "keywords": []
+            "keywords": [
+                "Golang",
+                "WebLogic Server",
+                "WLS",
+                "REST"
+            ]
         }
     ],
     "education": {
@@ -137,7 +143,9 @@
                     "Embedded Systems Design",
                     "Data Structures",
                     "Software Development Lifecycle Strategies",
-                    "Networking / IP Stack",
+                    "Agile / XP Processes",
+                    "Networking / TCP/IP Stack",
+                    "Encryption, Diffie Hellman secret sharing",
                     "Relational Databases"
                 ],
                 "summary": "Bachelor of Science degree focused primarily on embedded systems, software development lifecycle practices, and various algorithm and software development in network, path finding, and data organization.  Capstone project included a multi-semester team-based project.  Led back-end ORM team that provided interface for front-end ASP.NET web-based system to communicate to database.  Processes included software requirements gathering, use case/story building, software development and testing, completed with a presentation to the computer science department."
@@ -260,20 +268,12 @@
             }
         ]
     },
-    "samples": [
-        {
-            "title": "Work Sample",
-            "summary": "Description or summary of the work sample.",
-            "url": "http://project-repo.com",
-            "date": "2015"
-        }
-    ],
     "recognition": [
         {
             "title": "Army Commendation Medal - 3rd Award",
             "date": "2013-12",
             "from": "United States Army",
-            "summary": "Awarded for running the company's intelligence team and coordinating over 30 convoy operations.  Prepared daily and weekly intelligence briefings at company and battalion levels regarding current and potential threats in the area."
+            "summary": "Awarded for running the company's intelligence team and coordinating over 30 convoy operations.  Prepared daily and weekly intelligence briefings at company and battalion levels regarding current and potential threats in the area.  Advised Soldiers, Team Leaders, and Platoons on items of interest, tactics, procedures, and countermeasures to take on travelled routes."
         },
         {
             "title": "Afghanistan Campaign Medal",
@@ -285,7 +285,7 @@
             "title": "Certificate of Commendation - 3rd Award",
             "date": "2009-12",
             "from": "United States Marine Corps",
-            "summary": "Awarded for organizing and leading a training effort for over 300 Marines and Sailors as part of pre-deployment training."
+            "summary": "Awarded for organizing and leading a training effort for over 300 Marines and Sailors as part of pre-deployment training.  Gathered statistical information on required training for numerous Marines, including pass/fail rates, qualification scores, and an approved certificate for respective Unit HR to enter into their Marine's record books."
         },
         {
             "title": "Iraq Campaign Medal",
