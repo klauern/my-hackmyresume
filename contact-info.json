@@ -8,7 +8,18 @@
         "email": "klauer@gmail.com",
         "phone": "608.318.3377",
         "website": "https://www.nickklauer.info",
-        "other": []
+        "other": [
+            {
+                "label": "Work Phone",
+                "flavor": "phone",
+                "value": "1-608-458-3922"
+            },
+            {
+                "label": "Work Email",
+                "flavor": "email",
+                "value": "nicholasklauer@alliantenergy.com"
+            }
+        ]
     },
     "location": {
         "address": "1801 Fisher St.",
