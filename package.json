@@ -5,11 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "hackmyresume": "^1.8.0",
-    "jsonresume-theme-elegant": "^1.1.9",
-    "jsonresume-theme-striking": "^0.0.8",
-    "jsonresume-theme-modern": "^0.0.18",
-    "jsonresume-theme-kendall": "^0.1.11",
-    "jsonresume-theme-slick": " ^0.1.16"
+    "jsonresume-theme-slick": "klauern/jsonresume-theme-slick"
   },
   "devDependencies": {
       "http-server": "^0.9.0"
