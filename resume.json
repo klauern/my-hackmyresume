@@ -305,17 +305,6 @@
                     "value": "matthew.j.bell1@gmail.com"
                 }
             ]
-        },
-        {
-            "name": "Jane Q. Fullstacker",
-            "flavor": "technical",
-            "private": true,
-            "contact": [
-                {
-                    "flavor": "email",
-                    "value": "jane.fullstacker@somewhere.com"
-                }
-            ]
         }
     ],
     "testimonials": [
@@ -324,12 +313,6 @@
             "flavor": "professional",
             "quote": "I've known Nick for several years and a tour in Afghanistan. As long as I've known him, Nick has been a hard worker that always completed his tasks in a timely manner. He's very knowledgeable in the software development field and is always looking to expand upon his litany of language knowledge to other coding languages, techniques and best practices.",
             "private": false
-        }
-    ],
-    "languages": [
-        {
-            "language": "English",
-            "level": "native"
         }
     ],
     "interests": [
