@@ -1,14 +1,10 @@
 {
   "name": "klauern-resume",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "my hackmyresume",
   "main": "index.js",
   "dependencies": {
-    "hackmyresume": "^1.8.0",
-    "jsonresume-theme-slick": "klauern/jsonresume-theme-slick"
-  },
-  "devDependencies": {
-      "http-server": "^0.9.0"
+    "resume-cli": "^0.4.18"
   },
   "repository": {
     "type": "git",
@@ -16,13 +12,15 @@
   },
   "scripts": {
     "test": [
-        "hackmyresume VALIDATE resume.json",
-        "hackmyresume VALIDATE profile-photo.json",
-        "hackmyresume VALIDATE contact-info.json"
+      "resume test"
+    ],
+    "deploy": [
+      "resume publish"
     ]
   },
   "keywords": [
-    "hackmyresume"
+    "json-resume",
+    "resume-cli"
   ],
   "author": "Nick Klauer",
   "license": "ISC"
