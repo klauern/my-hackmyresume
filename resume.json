@@ -122,14 +122,12 @@
             "REST"
         ]
     }],
-    "education": {
-        "level": "Undergraduate",
-        "degree": "Bachelor of Science - Software Engineering",
-        "history": [{
+    "education": [{
             "institution": "University of Wisconsin - Platteville",
-            "start": "2001-08",
-            "end": "2007-12",
-            "curriculum": [
+            "studyType": "Bachelor",
+            "startDate": "2001-08",
+            "endDate": "2007-12",
+            "courses": [
                 "Embedded Systems Design",
                 "Data Structures",
                 "Software Development Lifecycle Strategies",
@@ -139,8 +137,7 @@
                 "Relational Databases"
             ],
             "summary": "Bachelor of Science degree focused primarily on embedded systems, software development lifecycle practices, and various algorithm and software development in network, path finding, and data organization.  Capstone project included a multi-semester team-based project.  Led back-end ORM team that provided interface for front-end ASP.NET web-based system to communicate to database.  Processes included software requirements gathering, use case/story building, software development and testing, completed with a presentation to the computer science department."
-        }]
-    },
+        }],
     "service": {
         "summary": "Active member in the United States Army Reserve",
         "history": [{
@@ -148,7 +145,7 @@
             "position": "Team Lead - Interior Electrician (12R)",
             "organization": "United States Army Reserve",
             "url": "https://www.us.army.mil/",
-            "start": "2011-01",
+            "startDate": "2011-01",
             "summary": "Currently a Team Leader for Headquarters Company in the 372nd Engineer Company.",
             "highlights": [
                 "Team Leader responsibilities include inventory, supply, logistics operations",
@@ -160,8 +157,8 @@
             "position": "Unit Administrator (0151)",
             "organization": "United States Marine Corps Reserve",
             "url": "https://www.marines.mil",
-            "start": "2009-01",
-            "end": "2011-01",
+            "startDate": "2009-01",
+            "endDate": "2011-01",
             "summary": "Lateral transfer to the Human Relations-side of the Marines, I was primarily involved in writing memorandums, preparing documentation for submittal, and assisted in training several hundred Marines to deploy to Iraq",
             "highlights": [
                 "Maintained unit records for 150-300 Marines.",
@@ -174,8 +171,8 @@
             "position": "0621 - Field Radio Operator",
             "organization": "United States Marine Corps Reserve",
             "url": "https://www.marines.mil",
-            "start": "2004-10",
-            "end": "2009-01",
+            "startDate": "2004-10",
+            "endDate": "2009-01",
             "summary": "Served in 1st Regiment, 14th Marine Battalion, Charlie Battery.  Deployed to Iraq in 2005-2006 in support of Operation Iraqi Freedom as a convoy escort assitant under 3/14 Hotel Battery",
             "highlights": [
                 "Deployed to Iraq as part of Operation Iraqi Freedom (OIF) in 2006."
@@ -245,25 +242,25 @@
             "skills": []
         }]
     },
-    "recognition": [{
+    "awards": [{
         "title": "Army Commendation Medal - 3rd Award",
         "date": "2013-12",
-        "from": "United States Army",
+        "awarder": "United States Army",
         "summary": "Awarded for running the company's intelligence team and coordinating over 30 convoy operations.  Prepared daily and weekly intelligence briefings at company and battalion levels regarding current and potential threats in the area.  Advised Soldiers, Team Leaders, and Platoons on items of interest, tactics, procedures, and countermeasures to take on travelled routes."
     }, {
         "title": "Afghanistan Campaign Medal",
         "date": "2013-12",
-        "from": "United States Army",
+        "awarder": "United States Army",
         "summary": "Awarded for serving in Operation Enduring Freedom in 2013."
     }, {
         "title": "Certificate of Commendation - 3rd Award",
         "date": "2009-12",
-        "from": "United States Marine Corps",
+        "awarder": "United States Marine Corps",
         "summary": "Awarded for organizing and leading a training effort for over 300 Marines and Sailors as part of pre-deployment training.  Gathered statistical information on required training for numerous Marines, including pass/fail rates, qualification scores, and an approved certificate for respective Unit HR to enter into their Marine's record books."
     }, {
         "title": "Iraq Campaign Medal",
         "date": "2006-12",
-        "from": "United States Marine Corps",
+        "awarder": "United States Marine Corps",
         "summary": "Awarded for deployment to Iraq in support of Operation Iraqi Freedom (OIF) in 2006."
     }],
     "references": [{
