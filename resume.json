@@ -123,21 +123,21 @@
         ]
     }],
     "education": [{
-            "institution": "University of Wisconsin - Platteville",
-            "studyType": "Bachelor",
-            "startDate": "2001-08-01",
-            "endDate": "2007-12-01",
-            "courses": [
-                "Embedded Systems Design",
-                "Data Structures",
-                "Software Development Lifecycle Strategies",
-                "Agile / XP Processes",
-                "Networking / TCP/IP Stack",
-                "Encryption, Diffie Hellman secret sharing",
-                "Relational Databases"
-            ],
-            "summary": "Bachelor of Science degree focused primarily on embedded systems, software development lifecycle practices, and various algorithm and software development in network, path finding, and data organization.  Capstone project included a multi-semester team-based project.  Led back-end ORM team that provided interface for front-end ASP.NET web-based system to communicate to database.  Processes included software requirements gathering, use case/story building, software development and testing, completed with a presentation to the computer science department."
-        }],
+        "institution": "University of Wisconsin - Platteville",
+        "studyType": "Bachelor",
+        "startDate": "2001-08-01",
+        "endDate": "2007-12-01",
+        "courses": [
+            "Embedded Systems Design",
+            "Data Structures",
+            "Software Development Lifecycle Strategies",
+            "Agile / XP Processes",
+            "Networking / TCP/IP Stack",
+            "Encryption, Diffie Hellman secret sharing",
+            "Relational Databases"
+        ],
+        "summary": "Bachelor of Science degree focused primarily on embedded systems, software development lifecycle practices, and various algorithm and software development in network, path finding, and data organization.  Capstone project included a multi-semester team-based project.  Led back-end ORM team that provided interface for front-end ASP.NET web-based system to communicate to database.  Processes included software requirements gathering, use case/story building, software development and testing, completed with a presentation to the computer science department."
+    }],
     "service": {
         "summary": "Active member in the United States Army Reserve",
         "history": [{
@@ -180,67 +180,65 @@
         }]
     },
     "skills": [{
-        "sets": [{
-            "name": "Java",
-            "level": "Advanced",
-            "skills": [
-                "JAX-RS",
-                "JAX-WS",
-                "Jersey",
-                "JMS",
-                "Apache CXF",
-                "Maven 3",
-                "Java 7/8"
-            ]
-        }, {
-            "name": "Oracle Fusion Middleware 11g",
-            "level": "Advanced",
-            "skills": [
-                "Oracle Service Bus (OSB)",
-                "Oracle SOA Suite (SOA)",
-                "Oracle Enterprise Manager 12c (OEMCC)",
-                "Business Transaction Management 12c (BTM)",
-                "SOAP",
-                "REST"
-            ]
-        }, {
-            "name": "Go (Golang)",
-            "level": "Beginner",
-            "skills": [
-                "klauern/remy",
-                "klauern/trackello",
-                "klauern/go-netgearlogs",
-                "JSON",
-                "Hugo",
-                "Gorilla Mux",
-                "Goxc",
-                "Govendor",
-                "codegangsta/cli",
-                "spf13/cobra",
-                "spf13/viper",
-                "Gomail"
-            ]
-        }, {
-            "name": "Clojure",
-            "level": "Beginner",
-            "skills": [
-                "lamina",
-                "midje",
-                "klauern/java-watcher.clj"
-            ]
-        }, {
-            "name": "Ruby",
-            "level": "Beginner",
-            "skills": []
-        }, {
-            "name": "Python",
-            "level": "Beginner",
-            "skills": []
-        }, {
-            "name": "SQL",
-            "level": "Intermediate",
-            "skills": []
-        }]
+        "name": "Java",
+        "level": "Advanced",
+        "keywords": [
+            "JAX-RS",
+            "JAX-WS",
+            "Jersey",
+            "JMS",
+            "Apache CXF",
+            "Maven 3",
+            "Java 7/8"
+        ]
+    }, {
+        "name": "Oracle Fusion Middleware 11g",
+        "level": "Advanced",
+        "keywords": [
+            "Oracle Service Bus (OSB)",
+            "Oracle SOA Suite (SOA)",
+            "Oracle Enterprise Manager 12c (OEMCC)",
+            "Business Transaction Management 12c (BTM)",
+            "SOAP",
+            "REST"
+        ]
+    }, {
+        "name": "Go (Golang)",
+        "level": "Beginner",
+        "keywords": [
+            "klauern/remy",
+            "klauern/trackello",
+            "klauern/go-netgearlogs",
+            "JSON",
+            "Hugo",
+            "Gorilla Mux",
+            "Goxc",
+            "Govendor",
+            "codegangsta/cli",
+            "spf13/cobra",
+            "spf13/viper",
+            "Gomail"
+        ]
+    }, {
+        "name": "Clojure",
+        "level": "Beginner",
+        "keywords": [
+            "lamina",
+            "midje",
+            "klauern/java-watcher.clj"
+        ]
+    }, {
+        "name": "Ruby",
+        "level": "Beginner",
+        "keywords": []
+    }, {
+        "name": "Python",
+        "level": "Beginner",
+        "keywords": []
+    }, {
+        "name": "SQL",
+        "level": "Intermediate",
+        "keywords": []
     }],
     "awards": [{
         "title": "Army Commendation Medal - 3rd Award",
