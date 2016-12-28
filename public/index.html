@@ -1,73 +1,555 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-<title></title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-<style type="text/css">@import url(https://fonts.googleapis.com/css?family=Lato:400,700);body{background:#fff;font-family:Lato,sans-serif;margin:0 0 80px;}a{color:#2ecc71;}a:focus,a:hover{color:#f1c40f;text-decoration:none;}p{line-height:1.5;margin:0;}p+p{margin-top:10px;}h1,h2,h3,h4{margin-top:0}section{margin-top:30px;}li{line-height:1.8;list-style:none;}li:before{content:"\f052";float:left;font:13px Octicons;margin-top:6px;margin-left:-20px;opacity:.1;position:absolute;}blockquote{border-left:5px solid #e7e9ec;font-size:14px;}em{color:#95a5a6;font-weight:normal;font-style:normal;}h4 span:first-child{color:#000;font-weight:bold;}.container{max-width:750px;padding:0 30px;}.col-sm-6{margin-bottom:10px;}.col-sm-12 h4{margin-top:12px;}.col-sm-12+.col-sm-12{margin-top:30px;}#header{background:#f4f6f6;padding:50px 0;margin-bottom:30px;}#header h2{color:#95a5a6;font-size:24px;}#content h3{color:#f1c40f;font-size:26px;margin-top:-4px;}#content aside{text-align:right;padding-right:30px;}#profiles .network{text-transform:capitalize;}#work .position,#volunteer .position{font-weight:bold;margin-bottom:8px;}#education .area{font-weight:bold;}#education .area:before{content:"\f0d7";font:16px Octicons;margin-right:6px;}#education .studyType{margin-left:25px;}#awards .summary,#publications .summary{margin-top:8px;}#publications .website a:before{content:attr(href);}@media (min-width: 480px) {.strike-through{border-top:1px solid #f4f6f6;height:20px;margin-top:12px;margin-bottom:-2px;position:relative;}.strike-through span,.strike-through a{background:#fff;position:absolute;}.strike-through span:first-child{padding-right:20px;margin-top:-12px;}.strike-through span+span{font-size:14px;margin-top:-10px;padding-left:20px;right:0;}}@media (max-width: 768px) {.col-sm-6:last-child{margin-bottom:0px;}#content aside{margin-bottom:20px;padding-right:0;text-align:left;}#publications .website a:before{content:"View publication";}}@media (max-width: 480px) {h1{font-size:26px;}.date{font-size:14px;margin-bottom:5px;}.strike-through span:first-child{margin-bottom:7px;}.strike-through span{display:block;}#header{margin-bottom:10px;padding:40px 0;}#actions{display:none;}}</style>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<title>Nick Klauer</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+<style>html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}table{border-collapse:collapse;border-spacing:0;}body,html{font-family:"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-size:13px;color:#40484f;font-weight:400;letter-spacing:0;line-height:1.46153846;text-align:left;webkit-text-size-adjust:100%;}p{display:block;margin-bottom:1.3em;}a{color:#0095ff;text-decoration:none;}a:hover{color:#0c65a5;text-decoration:underline;}ul{margin-top:1rem;}li{list-style-type:square;list-style-position:outside;margin-left:1.3em;}h1{font-size:2rem;}h2{font-size:1.67rem;}h3{font-size:1.27rem;}em{color:#757575;}blockquote{margin-bottom:1em;}strong{font-weight:700;}#resume{padding:1rem;margin-top:2rem;}.section{margin-bottom:1rem;}section .location{margin-right:.5em;color:#606d76;font-weight:700;}#contact{margin-top:.5rem;}#profiles .item{padding:0;}#header>#profiles,#header>#contact,#skills,#languages,#interests{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-flex-flow:row wrap;flex-flow:row wrap;-webkit-justify-content:flex-start;justify-content:flex-start;}#header>div{line-height:1.5;}#header>div>div{margin-right:1.2em;}#header h1.name{font-size:2.8rem;font-weight:100;line-height:100%;}#header h2.label{color:#202931;font-size:1.47rem;font-weight:300;}#header .picture{width:11em;float:right;border-radius:4px;}.main-summary{background:#f1f8ff;padding:1.2em 1em;margin-top:1rem;}.main-summary p{margin:.15em 0 0;}h2.section-title{display:inline-block;background:#fff;padding:0 1em 0.3em 0;color:#ff6d1f;text-transform:uppercase;font-weight:600;border:none;font-size:.9rem;}.section>header{position:relative;}.fa{margin-right:0.25em;}.section>header::after{position:absolute;left:0;top:.7em;height:1px;background:#ccc;content:"";width:100%;z-index:-100;display:block;}.section.main-summary>section{margin:0;}.section>section>header{font-size:1.38rem;position:relative;margin-top:.7em;}.section>section>header:first-of-type{margin:0;}.section>section>header .space-left{position:absolute;left:-1.56rem;top:5px;color:#aaa;line-height:1;opacity:0;}.position,.company,.organization,.institution,.date,.area,.studyType,.title,.awarder{display:inline-block;}.position,.studyType,.area,.title,.language,.name{font-weight:600;}.company::before,.institution::before,.organization::before,.awarder::before{content:"at "}.company,.institution,.organization,.awarder{color:#606d76;font-weight:400;}.section header .date{font-size:1rem;display:block;padding:.1em 0;font-weight:600;}ul.keywords,ul.courses{margin-top:.5em;}ul.keywords li,ul.courses li{display:inline-block;margin:2px 2px 2px 0;padding:4px 5px 5px;font-size:.9rem;line-height:1;text-transform:lowercase;color:#3e6d8e;background-color:#dfeaf1;border:0 solid #dfeaf1;white-space:nowrap;}ul.keywords li:hover,ul.courses li:hover{background:#dfeaf0;}.item{padding:.5em 0;}.gpa{padding-bottom:.5em;}.fa.social{font-size:1.1em;}.google-plus{color:#dd4b39;}.tumblr{color:#32506d;}.foursquare{color:#0072b1;}.facebook{color:#3b5998;}.linkedin{color:#007bb6;}.pinterest{color:#cb2027;}.dribbble{color:#ea4c89;}.instagram{color:#517fa4;}.twitter{color:#00aced;}.soundcloud{color:#ff3a00;}.wordpress{color:#21759b;}.youtube{color:#bb0000;}.github{color:#171515;}.stack-overflow{color:#828386;position:relative;}.flickr{color:#ff0084;}.stack-overflow::after{position:absolute;left:0;content:'\f16c';color:#f68a1f;overflow:hidden;height:40%;}#languages .item,#skills .item,#interests .item{width:15em;padding:0 .5em .5em 0;border-bottom:none;}#skills .item{width:16em;}#skills .item .keywords{width:15em;}.level{margin-bottom:.5em;}.level .bar{border:1px solid #ddd;display:block;width:10em;height:5px;position:relative;}.level .bar::after{position:absolute;content:" ";top:0;left:0;background:black;height:5px;}.level.beginner .bar::after{background:#EB5F51;width:2.5em;}.level.intermediate .bar::after{background:#ffdf1f;width:5em;}.level.advanced .bar::after,.level.fluent .bar::after{background:#5CB85C;width:7.5em;}.level.master .bar::after,.level.native.speaker .bar::after{background:#59C596;width:10em;}#references .item{padding-left:.5em;border-left:5px solid #ff6d1f;}.clear::after{content:"";display:table;clear:both;}.display{display:block;opacity:1!important;}.margin1{margin-bottom:.5rem;}@media screen and (min-width: 602px) {#resume{width:80%;margin:0 auto;}}@media screen and (min-width: 1025px) {li{margin-left:1.5em;}#resume{width:820px;margin:2rem auto;opacity:0;-webkit-transition:opacity .5s ease-in-out;transition:opacity .5s ease-in-out;}.section>section>header .space-left{opacity:1;cursor:pointer;}.section>section{margin-left:1.67rem;}.company::before,.institution::before,.organization::before,.awarder::before{content:"| ";}.header-left{float:left;width:70%;word-break:normal;}.section header .date{float:right;padding:.2em;}.display{display:none;}.display:not(.none){display:block;}}@media print {#resume{margin:0;padding:0;-ms-word-wrap:break-word;word-wrap:break-word;line-height:1.3;}@page{margin:1cm 1.4cm;}.item-count{display:none;}.company::before,.institution::before,.organization::before,.awarder::before{content:"at ";}.main-summary{padding:2rem 0;}.section{margin:.8rem 0;padding:0;}.section header{padding-bottom:.15rem;}.section .location{padding-bottom:.15rem;}.stack-overflow::after{content:"";}.fa.social{color:#828386;}ul{margin-top:.4em;}ul,li{padding:0;}ul.keywords li,ul.courses li{margin:0;padding:0;font-size:.8rem;text-transform:lowercase;}ul.keywords li::after,ul.courses li::after{padding:0 0 0 .1rem;content:" |";}ul.keywords::before,ul.courses::before{font-size:.8rem;font-weight:600;}ul.keywords::before{content:"Skills acquired: ";}#skills .keywords::before{content:'';}.section p{margin:0;padding:0;}ul.courses::before{content:"Major courses: ";}ul.keywords li:last-of-type::after,ul.courses li:last-of-type::after{content:"";}.level em{font-style:normal;padding:.1em 0;}.level .bar{display:none;}#profiles .item{padding:0;}.item.display{display:block;opacity:1!important;}}</style>
 </head>
 <body>
-<header id="header">
-<div class="container">
-<div class="row">
-<div class="col-sm-9 col-sm-push-3">
+<div id="resume">
+<header id="header" class="clear">
+<img class="picture" src="profile.jpeg" alt="Nick Klauer"/>
+<div class="middle">
+<h1 class="name">Nick Klauer</h1>
+<h2 class="label"></h2>
+</div>
+<span class="location">
+<span class="address">
+1801 Fisher St.,
+</span>
+<span class="city">
+Madison,
+</span>
+<span class="region">
+WI
+</span>
+</span>
+<div id="contact">
+<div class="website">
+<span class="fa fa-external-link"></span>
+<a target="_blank" href="https://www.nickklauer.info">https://www.nickklauer.info</a>
+</div>
+<div class="email">
+<span class="fa fa-envelope-o"></span>
+<a href="/cdn-cgi/l/email-protection#147f7875617166547379757d783a777b79"><span class="__cf_email__" data-cfemail="22494e4357475062454f434b4e0c414d4f">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
+</div>
+<div class="phone">
+<span class="fa fa-mobile"></span>
+608.318.3377
+</div>
+</div>
+<div id="profiles">
+<div class="item">
+<div class="username">
+<span class="fa fa-home home social"></span>
+<span class="url">
+<a href="https://www.nickklauer.info"></a>
+</span>
+</div>
+</div>
+<div class="item">
+<div class="username">
+<span class="fa fa-github github social"></span>
+<span class="url">
+<a href="https://github.com/klauern">klauern</a>
+</span>
+</div>
+</div>
+<div class="item">
+<div class="username">
+<span class="fa fa-twitter twitter social"></span>
+<span class="url">
+<a href="https://twitter.com/klauern">klauern</a>
+</span>
+</div>
+</div>
+<div class="item">
+<div class="username">
+<span class="fa fa-linkedin linkedin social"></span>
+<span class="url">
+<a href="https://linkedin.com/nick.klauer">klauern</a>
+</span>
 </div>
 </div>
 </div>
 </header>
-<div id="content" class="container">
-<section id="interests" class="row">
-<aside class="col-sm-3">
-<h3>Interests</h3>
-</aside>
-<div class="col-sm-9">
-<div class="row">
-<div class="col-sm-6">
-<div class="name">
-<h4>Family</h4>
+<section class="section main-summary">
+<section>
+<div><p>SOA Middleware Administrator, Developer</p></div>
+</section>
+</section>
+<section class="section margin1">
+<header>
+<h2 class='section-title'>Skills</h2>
+</header>
+<section id="skills">
+<div class="item">
+<h3 class="name">
+Java
+</h3>
+<div class="level advanced">
+<em>Advanced</em>
+<div class="bar"></div>
 </div>
+<ul class="keywords">
+<li>JAX-RS</li>
+<li>JAX-WS</li>
+<li>Jersey</li>
+<li>JMS</li>
+<li>Apache CXF</li>
+<li>Maven 3</li>
+<li>Java 7/8</li>
+</ul>
+</div>
+<div class="item">
+<h3 class="name">
+Oracle Fusion Middleware 11g
+</h3>
+<div class="level advanced">
+<em>Advanced</em>
+<div class="bar"></div>
+</div>
+<ul class="keywords">
+<li>Oracle Service Bus (OSB)</li>
+<li>Oracle SOA Suite (SOA)</li>
+<li>Oracle Enterprise Manager 12c (OEMCC)</li>
+<li>Business Transaction Management 12c (BTM)</li>
+<li>SOAP</li>
+<li>REST</li>
+</ul>
+</div>
+<div class="item">
+<h3 class="name">
+Go (Golang)
+</h3>
+<div class="level beginner">
+<em>Beginner</em>
+<div class="bar"></div>
+</div>
+<ul class="keywords">
+<li>klauern/remy</li>
+<li>klauern/trackello</li>
+<li>klauern/go-netgearlogs</li>
+<li>JSON</li>
+<li>Hugo</li>
+<li>Gorilla Mux</li>
+<li>Goxc</li>
+<li>Govendor</li>
+<li>codegangsta/cli</li>
+<li>spf13/cobra</li>
+<li>spf13/viper</li>
+<li>Gomail</li>
+</ul>
+</div>
+<div class="item">
+<h3 class="name">
+Clojure
+</h3>
+<div class="level beginner">
+<em>Beginner</em>
+<div class="bar"></div>
+</div>
+<ul class="keywords">
+<li>lamina</li>
+<li>midje</li>
+<li>klauern/java-watcher.clj</li>
+</ul>
+</div>
+<div class="item">
+<h3 class="name">
+Ruby
+</h3>
+<div class="level beginner">
+<em>Beginner</em>
+<div class="bar"></div>
+</div>
+</div>
+<div class="item">
+<h3 class="name">
+Python
+</h3>
+<div class="level beginner">
+<em>Beginner</em>
+<div class="bar"></div>
+</div>
+</div>
+<div class="item">
+<h3 class="name">
+SQL
+</h3>
+<div class="level intermediate">
+<em>Intermediate</em>
+<div class="bar"></div>
+</div>
+</div>
+</section>
+</section>
+<section class="section">
+<header>
+<h2 class='section-title'>Work Experience <span class="item-count">(3)</span></h2>
+</header>
+<section id="work">
+<header>
+<span class="space-left">
+<span class="fa fa-caret-down"></span>
+</span>
+<div class="position">
+IT Analyst II
+</div>
+<div class="company">
+Alliant Energy Corporation
+</div>
+<div class="date">
+<span class="startDate">
+January 2014
+</span>
+<span class="endDate">
+- Current
+</span>
+</div>
+</header>
+<span class="website">
+<a href="https://www.alliantenergy.com/">https://www.alliantenergy.com/</a>
+</span>
+<ul class="keywords">
+<li>JAX-RS</li>
+<li>WLST</li>
+<li>Jython</li>
+<li>WebLogic</li>
+<li>WLS</li>
+<li>Maven</li>
+<li>Java</li>
+<li>Golang</li>
+<li>REST</li>
+<li>SOAP 1.0/1.1</li>
+<li>Async / Sync</li>
+<li>SoapUI</li>
+<li>Groovy</li>
+<li>JAX-WS</li>
+</ul>
+<div class="item display" style="opacity:1">
+<div class="summary">
+<p><p>SOA Middleware Administrator and Developer</p></p>
+</div>
+<ul class="highlights">
+<li>Primary responsibility for maintaining 16+ Oracle Fusion Middleware (FMW) clusters and nearly 300 servers, both clustered and single-instance nodes.</li>
+<li>Develop tooling and stand-alone applications to control, patch, deploy, and otherwise maintain infrastructure products related to FMW systems, such as Oracle Service Bus (OSB), Oracle SOA Suite (SOA), Business Transaction Management (BTM), and Oracle Enterprise Manager - Cloud Control (OEMCC).</li>
+<li>Created web services wrapping Cups4J, providing asynchronous printing and reporting capabilities for hundreds of daily work orders printed in remote field offices.</li>
+<li>Developed applications to provide load balancing failover for a Web Services Cluster of WebLogic Servers for patching.</li>
+<li>Developed over 100 different [Ansible](https://www.ansible.com) Playbooks for fielding diagnostic information, patching, and restarting most infrastructure servers under the ESB/SOA servers.</li>
+<li>Active contributor to both [StackOverflow](http://stackoverflow.com/users/7008/nick-klauer) and various [Open Source Projects](https://github.com/klauern).</li>
+<li>Created training, documentation, and helper libraries for the open source version of [SoapUI](https://www.soapui.org) to assist new developers with SOAP and REST-based service development and testing. Training included Groovy scripting, JDBC-based testing, and Asynchronous WS-Addressing service call testing.</li>
+</ul>
+</div>
+<header>
+<span class="space-left">
+<span class="fa fa-caret-right"></span>
+</span>
+<div class="position">
+IT Analyst II - Energy Markets
+</div>
+<div class="company">
+Alliant Energy Corporation
+</div>
+<div class="date">
+<span class="startDate">
+July 2012
+</span>
+<span class="endDate">
+- January 2014
+</span>
+</div>
+</header>
+<ul class="keywords">
+<li>Energy Markets</li>
+<li>PCI GenManager / GenSystem</li>
+<li>LMP</li>
+<li>MISO</li>
+<li>DA/RT</li>
+<li>Wind Forecasting</li>
+</ul>
+<div class="item display none" style="opacity:0">
+<ul class="highlights">
+<li>Maintained and developed trading software and features that were responsible for trading $2B+ annually in Megawatt-Hours (MWh) of electricity.</li>
+<li>Developed solution to reduce risk of base-load forecasting by $10,000 / day of missed or incorrectly calculated demand.</li>
+<li>Was primary developer and on-call for product that was used almost exclusively by the front office trading staff, handling most service issues on a rotating 24x7 schedule.</li>
+</ul>
+</div>
+<header>
+<span class="space-left">
+<span class="fa fa-caret-right"></span>
+</span>
+<div class="position">
+IT Analyst I - Enterprise Application Integration (EAI)
+</div>
+<div class="company">
+Alliant Energy Corporation
+</div>
+<div class="date">
+<span class="startDate">
+June 2007
+</span>
+<span class="endDate">
+- July 2010
+</span>
+</div>
+</header>
+<ul class="keywords">
+<li>SUN Java Composite Application Suite (JCAPS) 5.1.2</li>
+<li>SUN JCAPS 6.2</li>
+<li>SUN Glassfish 2.0, 3.0</li>
+<li>Jenkins / Hudson CI</li>
+<li>Apache Maven 3.0</li>
+</ul>
+<div class="item display none" style="opacity:0">
+<ul class="highlights">
+<li>Software developer for software integrations connecting various software products together with employee, financial, security, and supply chain data.</li>
+<li>Developed 30+ integrations using database queries, SOAP-based web services, and extensive use of message-based systems.</li>
+<li>Coordinated meetings, integration plans, documentation, testing, and validation of data integration layers with multiple stakeholders.</li>
+</ul>
+</div>
+</section>
+</section>
+<section class="section">
+<header>
+<h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
+</header>
+<section id="education">
+<header class="clear">
+<span class="space-left">
+<span class="fa fa-caret-down"></span>
+</span>
+<div class="header-left">
+<div class="studyType">
+Bachelor
+</div>
+<div class="institution">
+University of Wisconsin - Platteville
+</div>
+</div>
+<div class="date">
+<span class="startDate">
+2001
+</span>
+<span class="endDate">
+- 2007
+</span>
+</div>
+</header>
+<ul class="courses">
+<li>Embedded Systems Design</li>
+<li>Data Structures</li>
+<li>Software Development Lifecycle Strategies</li>
+<li>Agile / XP Processes</li>
+<li>Networking / TCP/IP Stack</li>
+<li>Encryption, Diffie Hellman secret sharing</li>
+<li>Relational Databases</li>
+</ul>
+<div class="item display" style="opacity:1">
+<div class="summary">
+<p><p>Bachelor of Science degree focused primarily on embedded systems, software development lifecycle practices, and various algorithm and software development in network, path finding, and data organization. Capstone project included a multi-semester team-based project. Led back-end ORM team that provided interface for front-end ASP.NET web-based system to communicate to database. Processes included software requirements gathering, use case/story building, software development and testing, completed with a presentation to the computer science department.</p></p>
+</div>
+</div>
+</section>
+</section>
+<section class="section">
+<header>
+<h2 class='section-title'>Awards</h2>
+</header>
+<section id="awards">
+<header class="clear">
+<span class="space-left">
+<span class="fa fa-caret-down"></span>
+</span>
+<div class="header-left">
+<div class="title">
+Army Commendation Medal - 3rd Award
+</div>
+<div class="awarder">
+United States Army
+</div>
+</div>
+<div class="date">
+2013
+</div>
+</header>
+<div class="item display" style="opacity:1">
+<div class="summary">
+<p><p>Awarded for running the company's intelligence team and coordinating over 30 convoy operations. Prepared daily and weekly intelligence briefings at company and battalion levels regarding current and potential threats in the area. Advised Soldiers, Team Leaders, and Platoons on items of interest, tactics, procedures, and countermeasures to take on travelled routes.</p></p>
+</div>
+</div>
+<header class="clear">
+<span class="space-left">
+<span class="fa fa-caret-right"></span>
+</span>
+<div class="header-left">
+<div class="title">
+Afghanistan Campaign Medal
+</div>
+<div class="awarder">
+United States Army
+</div>
+</div>
+<div class="date">
+2013
+</div>
+</header>
+<div class="item display none" style="opacity:0">
+<div class="summary">
+<p><p>Awarded for serving in Operation Enduring Freedom in 2013.</p></p>
+</div>
+</div>
+<header class="clear">
+<span class="space-left">
+<span class="fa fa-caret-right"></span>
+</span>
+<div class="header-left">
+<div class="title">
+Certificate of Commendation - 3rd Award
+</div>
+<div class="awarder">
+United States Marine Corps
+</div>
+</div>
+<div class="date">
+2009
+</div>
+</header>
+<div class="item display none" style="opacity:0">
+<div class="summary">
+<p><p>Awarded for organizing and leading a training effort for over 300 Marines and Sailors as part of pre-deployment training. Gathered statistical information on required training for numerous Marines, including pass/fail rates, qualification scores, and an approved certificate for respective Unit HR to enter into their Marine's record books.</p></p>
+</div>
+</div>
+<header class="clear">
+<span class="space-left">
+<span class="fa fa-caret-right"></span>
+</span>
+<div class="header-left">
+<div class="title">
+Iraq Campaign Medal
+</div>
+<div class="awarder">
+United States Marine Corps
+</div>
+</div>
+<div class="date">
+2006
+</div>
+</header>
+<div class="item display none" style="opacity:0">
+<div class="summary">
+<p><p>Awarded for deployment to Iraq in support of Operation Iraqi Freedom (OIF) in 2006.</p></p>
+</div>
+</div>
+</section>
+</section>
+<section class="section margin1">
+<header>
+<h2 class='section-title' class='section-title'>Interests</h2>
+</header>
+<section id="interests">
+<div class="item">
+<h3 class="name">
+Family
+</h3>
 <ul class="keywords">
 <li>family</li>
 <li>children</li>
 <li>wife</li>
 <li>boys</li>
 </ul>
+<div class="summary">
+<p><p>I have a wife and 4 boys under the age of 10. Life is exciting.</p></p>
 </div>
-<div class="col-sm-6">
-<div class="name">
-<h4>Go (Golang)</h4>
 </div>
+<div class="item">
+<h3 class="name">
+Go (Golang)
+</h3>
 <ul class="keywords">
 <li>Go</li>
 <li>Golang</li>
 <li>[klauern/remy](https://github.com/klauern/remy)</li>
 <li>[klauern/trackello](https://github.com/klauern/trackello)</li>
 </ul>
+<div class="summary">
+<p><p>I have been coding Go for the past 6 months. It's an interesting language, which I'm attracted to for it's cross-platform deployment ease.</p></p>
 </div>
-<div class="col-sm-6">
-<div class="name">
-<h4>Ansible</h4>
 </div>
+<div class="item">
+<h3 class="name">
+Ansible
+</h3>
 <ul class="keywords">
 <li>Ansible</li>
 </ul>
-</div>
-</div>
-</div>
-</section>
-<section id="references" class="row">
-<aside class="col-sm-3">
-<h3>References</h3>
-</aside>
-<div class="col-sm-9">
-<div class="row">
-<div class="col-sm-12">
-</div>
+<div class="summary">
+<p><p>I have a keen interest in what is often referred to as DevOps, in terms of automation of processes, testing, and deployment. I have done a number of automation projects related to the build/patch/deploy cycle at my work, and would love to push these tools to other teams and organizations.</p></p>
 </div>
 </div>
 </section>
+</section>
+<section class="section">
+<header>
+<h2 class='section-title'>References</h2>
+</header>
+<section id="references">
+<div class="item">
+<div class="name">
+Matthew Bell
 </div>
-</body>
+</div>
+</section>
+</section>
+</div>
+<script>
+			(function(){
+				var elements = document.querySelector("#resume");
+
+				// adding the element to the all container
+				// and using event delegation
+				elements.addEventListener("click", function(e) {
+					var current = e.target;
+					// font awesone arrows
+					var arrowRight = current.classList.contains('fa-caret-right');
+					var arrowDown = current.classList.contains('fa-caret-down');
+
+					if(current && current.nodeName == "SPAN" && (arrowRight || arrowDown)) {
+						var header = e.target.parentNode.parentNode;
+						var item = header.nextSibling;
+
+						// select the .item element from the siblings
+						while (!item || !item.classList || !item.classList.contains('item')) {
+							item = item.nextSibling;
+						}
+
+						// hide or show the .item element
+						item.classList.toggle('none');
+
+						// if the .item is going to be shown then imcrease is opacity
+						// every 20 milliseconds to make a fadeIn effect
+						if (!item.classList.contains('none')) {
+							var id = setInterval(function() {
+								item.style.opacity = parseFloat(item.style.opacity) + 0.09;
+								if (parseFloat(item.style.opacity) >= 1) {
+									clearInterval(id);
+								}
+							}, 20);
+						} else {
+							item.style.opacity = 0;
+						}
+
+						current.classList.toggle('fa-caret-right');
+						current.classList.toggle('fa-caret-down');
+					}
+
+				}, false);
+
+				// Make the #resume visible only when the DOM is fully loaded
+				elements.style.opacity = '1';
+			})();
+		</script>
+<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>
