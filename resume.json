@@ -5,38 +5,45 @@
         "email": "klauer@gmail.com",
         "phone": "608.318.3377",
         "website": "https://www.nickklauer.info",
-        "summary": "SOA Middleware Administrator, Developer"
+        "summary": "SOA Middleware Administrator, Developer",
+        "location": {
+            "address": "1801 Fisher St.",
+            "city": "Madison",
+            "region": "WI",
+            "country": "USA",
+            "code": "53713"
+        },
+        "profiles": [{
+            "label": "Home",
+            "network": "home",
+            "url": "https://www.nickklauer.info",
+            "username": ""
+        }, {
+            "label": "GitHub",
+            "network": "GitHub",
+            "url": "https://github.com/klauern",
+            "username": "klauern"
+        }, {
+            "label": "Twitter",
+            "network": "Twitter",
+            "url": "https://twitter.com/klauern",
+            "username": "klauern"
+        }, {
+            "label": "LinkedIn",
+            "network": "LinkedIn",
+            "url": "https://linkedin.com/nick.klauer",
+            "username": "klauern"
+        }]
     },
-    "social": [{
-        "label": "Home",
-        "network": "home",
-        "url": "https://www.nickklauer.info",
-        "user": ""
-    }, {
-        "label": "GitHub",
-        "network": "GitHub",
-        "url": "https://github.com/klauern",
-        "user": "klauern"
-    }, {
-        "label": "Twitter",
-        "network": "Twitter",
-        "url": "https://twitter.com/klauern",
-        "user": "klauern"
-    }, {
-        "label": "LinkedIn",
-        "network": "LinkedIn",
-        "url": "https://linkedin.com/nick.klauer",
-        "user": "klauern"
-    }],
-    "employment": {
+    "work": [{
         "summary": "",
         "history": [{
+            "company": "Alliant Energy Corporation",
             "position": "IT Analyst II",
-            "employer": "Alliant Energy Corporation",
+            "website": "https://www.alliantenergy.com/",
             "summary": "SOA Middleware Administrator and Developer",
             "current": true,
-            "start": "2014-01",
-            "url": "https://www.alliantenergy.com/",
+            "startDate": "2014-01",
             "keywords": [
                 "JAX-RS",
                 "WLST",
@@ -100,7 +107,7 @@
                 "Coordinated meetings, integration plans, documentation, testing, and validation of data integration layers with multiple stakeholders."
             ]
         }]
-    },
+    }],
     "projects": [{
         "title": "Remy",
         "category": "FOSS",
