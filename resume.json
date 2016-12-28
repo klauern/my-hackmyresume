@@ -1,346 +1,305 @@
 {
-    "name": "Nick Klauer",
-    "meta": {
-        "format": "FRESH@0.6.0",
-        "version": "0.4.0"
+    "basics": {
+        "name": "Nick Klauer",
+        "picture": "profile.jpeg",
+        "email": "klauer@gmail.com",
+        "phone": "608.318.3377",
+        "website": "https://www.nickklauer.info",
+        "summary": "SOA Middleware Administrator, Developer"
     },
-    "info": {
-        "label": "SOA Middleware Administrator, Developer",
-        "brief": ""
-    },
-    "social": [
-        {
-            "label": "Home",
-            "network": "home",
-            "url": "https://www.nickklauer.info",
-            "user": ""
-        },
-        {
-            "label": "GitHub",
-            "network": "GitHub",
-            "url": "https://github.com/klauern",
-            "user": "klauern"
-        },
-        {
-            "label": "Twitter",
-            "network": "Twitter",
-            "url": "https://twitter.com/klauern",
-            "user": "klauern"
-        },
-        {
-            "label": "LinkedIn",
-            "network": "LinkedIn",
-            "url": "https://linkedin.com/nick.klauer",
-            "user": "klauern"
-        }
-    ],
+    "social": [{
+        "label": "Home",
+        "network": "home",
+        "url": "https://www.nickklauer.info",
+        "user": ""
+    }, {
+        "label": "GitHub",
+        "network": "GitHub",
+        "url": "https://github.com/klauern",
+        "user": "klauern"
+    }, {
+        "label": "Twitter",
+        "network": "Twitter",
+        "url": "https://twitter.com/klauern",
+        "user": "klauern"
+    }, {
+        "label": "LinkedIn",
+        "network": "LinkedIn",
+        "url": "https://linkedin.com/nick.klauer",
+        "user": "klauern"
+    }],
     "employment": {
         "summary": "",
-        "history": [
-            {
-                "position": "IT Analyst II",
-                "employer": "Alliant Energy Corporation",
-                "summary": "SOA Middleware Administrator and Developer",
-                "current": true,
-                "start": "2014-01",
-                "url": "https://www.alliantenergy.com/",
-                "keywords": [
-                    "JAX-RS",
-                    "WLST",
-                    "Jython",
-                    "WebLogic",
-                    "WLS",
-                    "Maven",
-                    "Java",
-                    "Golang",
-                    "REST",
-                    "SOAP 1.0/1.1",
-                    "Async / Sync",
-                    "SoapUI",
-                    "Groovy",
-                    "JAX-WS"
-                ],
-                "highlights": [
-                    "Primary responsibility for maintaining 16+ Oracle Fusion Middleware (FMW) clusters and nearly 300 servers, both clustered and single-instance nodes.",
-                    "Develop tooling and stand-alone applications to control, patch, deploy, and otherwise maintain infrastructure products related to FMW systems, such as Oracle Service Bus (OSB), Oracle SOA Suite (SOA), Business Transaction Management (BTM), and Oracle Enterprise Manager - Cloud Control (OEMCC).",
-                    "Created web services wrapping Cups4J, providing asynchronous printing and reporting capabilities for hundreds of daily work orders printed in remote field offices.",
-                    "Developed applications to provide load balancing failover for a Web Services Cluster of WebLogic Servers for patching.",
-                    "Developed over 100 different [Ansible](https://www.ansible.com) Playbooks for fielding diagnostic information, patching, and restarting most infrastructure servers under the ESB/SOA servers.",
-                    "Active contributor to both [StackOverflow](http://stackoverflow.com/users/7008/nick-klauer) and various [Open Source Projects](https://github.com/klauern).",
-                    "Created training, documentation, and helper libraries for the open source version of [SoapUI](https://www.soapui.org) to assist new developers with SOAP and REST-based service development and testing.  Training included Groovy scripting, JDBC-based testing, and Asynchronous WS-Addressing service call testing."
-                ]
-            },
-            {
-                "position": "IT Analyst II - Energy Markets",
-                "employer": "Alliant Energy Corporation",
-                "start": "2012-07",
-                "end": "2014-01",
-                "url": "https://www.alliantenergy.com/",
-                "keywords": [
-                    "Energy Markets",
-                    "PCI GenManager / GenSystem",
-                    "LMP",
-                    "MISO",
-                    "DA/RT",
-                    "Wind Forecasting"
-                ],
-                "highlights": [
-                    "Maintained and developed trading software and features that were responsible for trading $2B+ annually in Megawatt-Hours (MWh) of electricity.",
-                    "Developed solution to reduce risk of base-load forecasting by $10,000 / day of missed or incorrectly calculated demand.",
-                    "Was primary developer and on-call for product that was used almost exclusively by the front office trading staff, handling most service issues on a rotating 24x7 schedule."
-                ]
-            },
-            {
-                "position": "IT Analyst I - Enterprise Application Integration (EAI)",
-                "employer": "Alliant Energy Corporation",
-                "start": "2007-06",
-                "end": "2010-07",
-                "url": "https://www.alliantenergy.com/",
-                "keywords": [
-                    "SUN Java Composite Application Suite (JCAPS) 5.1.2",
-                    "SUN JCAPS 6.2",
-                    "SUN Glassfish 2.0, 3.0",
-                    "Jenkins / Hudson CI",
-                    "Apache Maven 3.0"
-                ],
-                "highlights": [
-                    "Software developer for software integrations connecting various software products together with employee, financial, security, and supply chain data.",
-                    "Developed 30+ integrations using database queries, SOAP-based web services, and extensive use of message-based systems.",
-                    "Coordinated meetings, integration plans, documentation, testing, and validation of data integration layers with multiple stakeholders."
-                ]
-            }
-        ]
-    },
-    "projects": [
-        {
-            "title": "Remy",
-            "category": "FOSS",
-            "url": "https://github.com/klauern/remy",
-            "repo": "https://github.com/klauern/remy",
-            "media": [],
-            "role": "Developer",
-            "summary": "CLI for interacting with the WebLogic Server RESTful Management Services.",
-            "description": "`remy` is an application I wrote to learn a little about [golang](http://www.golang.org) as well as to itch a little scratch I had with WebLogic servers.  WebLogic has a feature called *[RESTful Management Extensions](http://docs.oracle.com/cd/E23943_01/web.1111/e24682/toc.htm#RESTS149)*, which lets you query an AdminServer's domain for various pieces of information it knows about Servers, Clusters, Datasources, and Applications that it is resposnible for.  This is pretty useful if you are interested in writing a lot of small scripts to quickly get the status of some datasource in your cluster without having to resort to connecting, setting up, and maintaining your own copy of a WebLogic Scripting Tool (WLST) interface.A description of the project.",
-            "highlights": [],
+        "history": [{
+            "position": "IT Analyst II",
+            "employer": "Alliant Energy Corporation",
+            "summary": "SOA Middleware Administrator and Developer",
+            "current": true,
+            "start": "2014-01",
+            "url": "https://www.alliantenergy.com/",
             "keywords": [
-                "Golang",
-                "WebLogic Server",
+                "JAX-RS",
+                "WLST",
+                "Jython",
+                "WebLogic",
                 "WLS",
-                "REST"
+                "Maven",
+                "Java",
+                "Golang",
+                "REST",
+                "SOAP 1.0/1.1",
+                "Async / Sync",
+                "SoapUI",
+                "Groovy",
+                "JAX-WS"
+            ],
+            "highlights": [
+                "Primary responsibility for maintaining 16+ Oracle Fusion Middleware (FMW) clusters and nearly 300 servers, both clustered and single-instance nodes.",
+                "Develop tooling and stand-alone applications to control, patch, deploy, and otherwise maintain infrastructure products related to FMW systems, such as Oracle Service Bus (OSB), Oracle SOA Suite (SOA), Business Transaction Management (BTM), and Oracle Enterprise Manager - Cloud Control (OEMCC).",
+                "Created web services wrapping Cups4J, providing asynchronous printing and reporting capabilities for hundreds of daily work orders printed in remote field offices.",
+                "Developed applications to provide load balancing failover for a Web Services Cluster of WebLogic Servers for patching.",
+                "Developed over 100 different [Ansible](https://www.ansible.com) Playbooks for fielding diagnostic information, patching, and restarting most infrastructure servers under the ESB/SOA servers.",
+                "Active contributor to both [StackOverflow](http://stackoverflow.com/users/7008/nick-klauer) and various [Open Source Projects](https://github.com/klauern).",
+                "Created training, documentation, and helper libraries for the open source version of [SoapUI](https://www.soapui.org) to assist new developers with SOAP and REST-based service development and testing.  Training included Groovy scripting, JDBC-based testing, and Asynchronous WS-Addressing service call testing."
             ]
-        }
-    ],
+        }, {
+            "position": "IT Analyst II - Energy Markets",
+            "employer": "Alliant Energy Corporation",
+            "start": "2012-07",
+            "end": "2014-01",
+            "url": "https://www.alliantenergy.com/",
+            "keywords": [
+                "Energy Markets",
+                "PCI GenManager / GenSystem",
+                "LMP",
+                "MISO",
+                "DA/RT",
+                "Wind Forecasting"
+            ],
+            "highlights": [
+                "Maintained and developed trading software and features that were responsible for trading $2B+ annually in Megawatt-Hours (MWh) of electricity.",
+                "Developed solution to reduce risk of base-load forecasting by $10,000 / day of missed or incorrectly calculated demand.",
+                "Was primary developer and on-call for product that was used almost exclusively by the front office trading staff, handling most service issues on a rotating 24x7 schedule."
+            ]
+        }, {
+            "position": "IT Analyst I - Enterprise Application Integration (EAI)",
+            "employer": "Alliant Energy Corporation",
+            "start": "2007-06",
+            "end": "2010-07",
+            "url": "https://www.alliantenergy.com/",
+            "keywords": [
+                "SUN Java Composite Application Suite (JCAPS) 5.1.2",
+                "SUN JCAPS 6.2",
+                "SUN Glassfish 2.0, 3.0",
+                "Jenkins / Hudson CI",
+                "Apache Maven 3.0"
+            ],
+            "highlights": [
+                "Software developer for software integrations connecting various software products together with employee, financial, security, and supply chain data.",
+                "Developed 30+ integrations using database queries, SOAP-based web services, and extensive use of message-based systems.",
+                "Coordinated meetings, integration plans, documentation, testing, and validation of data integration layers with multiple stakeholders."
+            ]
+        }]
+    },
+    "projects": [{
+        "title": "Remy",
+        "category": "FOSS",
+        "url": "https://github.com/klauern/remy",
+        "repo": "https://github.com/klauern/remy",
+        "media": [],
+        "role": "Developer",
+        "summary": "CLI for interacting with the WebLogic Server RESTful Management Services.",
+        "description": "`remy` is an application I wrote to learn a little about [golang](http://www.golang.org) as well as to itch a little scratch I had with WebLogic servers.  WebLogic has a feature called *[RESTful Management Extensions](http://docs.oracle.com/cd/E23943_01/web.1111/e24682/toc.htm#RESTS149)*, which lets you query an AdminServer's domain for various pieces of information it knows about Servers, Clusters, Datasources, and Applications that it is resposnible for.  This is pretty useful if you are interested in writing a lot of small scripts to quickly get the status of some datasource in your cluster without having to resort to connecting, setting up, and maintaining your own copy of a WebLogic Scripting Tool (WLST) interface.A description of the project.",
+        "highlights": [],
+        "keywords": [
+            "Golang",
+            "WebLogic Server",
+            "WLS",
+            "REST"
+        ]
+    }],
     "education": {
         "level": "Undergraduate",
         "degree": "Bachelor of Science - Software Engineering",
-        "history": [
-            {
-                "institution": "University of Wisconsin - Platteville",
-                "start": "2001-08",
-                "end": "2007-12",
-                "curriculum": [
-                    "Embedded Systems Design",
-                    "Data Structures",
-                    "Software Development Lifecycle Strategies",
-                    "Agile / XP Processes",
-                    "Networking / TCP/IP Stack",
-                    "Encryption, Diffie Hellman secret sharing",
-                    "Relational Databases"
-                ],
-                "summary": "Bachelor of Science degree focused primarily on embedded systems, software development lifecycle practices, and various algorithm and software development in network, path finding, and data organization.  Capstone project included a multi-semester team-based project.  Led back-end ORM team that provided interface for front-end ASP.NET web-based system to communicate to database.  Processes included software requirements gathering, use case/story building, software development and testing, completed with a presentation to the computer science department."
-            }
-        ]
+        "history": [{
+            "institution": "University of Wisconsin - Platteville",
+            "start": "2001-08",
+            "end": "2007-12",
+            "curriculum": [
+                "Embedded Systems Design",
+                "Data Structures",
+                "Software Development Lifecycle Strategies",
+                "Agile / XP Processes",
+                "Networking / TCP/IP Stack",
+                "Encryption, Diffie Hellman secret sharing",
+                "Relational Databases"
+            ],
+            "summary": "Bachelor of Science degree focused primarily on embedded systems, software development lifecycle practices, and various algorithm and software development in network, path finding, and data organization.  Capstone project included a multi-semester team-based project.  Led back-end ORM team that provided interface for front-end ASP.NET web-based system to communicate to database.  Processes included software requirements gathering, use case/story building, software development and testing, completed with a presentation to the computer science department."
+        }]
     },
     "service": {
         "summary": "Active member in the United States Army Reserve",
-        "history": [
-            {
-                "flavor": "military",
-                "position": "Team Lead - Interior Electrician (12R)",
-                "organization": "United States Army Reserve",
-                "url": "https://www.us.army.mil/",
-                "start": "2011-01",
-                "summary": "Currently a Team Leader for Headquarters Company in the 372nd Engineer Company.",
-                "highlights": [
-                    "Team Leader responsibilities include inventory, supply, logistics operations",
-                    "Driver Trainer for Platoon",
-                    "Team Lead for the company’s intelligence operations during Afghanistan Deployment from May through December 2013.  Responsible for planning route operations, investigating intelligence reports, reporting all company movements and intelligence observations to higher command, and prepared daily and weekly briefs.  Ancillary skill position acquired several months prior to deployment as additional duty"
-                ]
-            },
-            {
-                "flavor": "military",
-                "position": "Unit Administrator (0151)",
-                "organization": "United States Marine Corps Reserve",
-                "url": "https://www.marines.mil",
-                "start": "2009-01",
-                "end": "2011-01",
-                "summary": "Lateral transfer to the Human Relations-side of the Marines, I was primarily involved in writing memorandums, preparing documentation for submittal, and assisted in training several hundred Marines to deploy to Iraq",
-                "highlights": [
-                    "Maintained unit records for 150-300 Marines.",
-                    "Lead multiple teams in physical training activities.",
-                    "Deployed to Afghanistan in 2013",
-                    "Mentored subordinate Marines in career planning, both for the military path as well as civilian career opportunities."
-                ]
-            },
-            {
-                "flavor": "military",
-                "position": "0621 - Field Radio Operator",
-                "organization": "United States Marine Corps Reserve",
-                "url": "https://www.marines.mil",
-                "start": "2004-10",
-                "end": "2009-01",
-                "summary": "Served in 1st Regiment, 14th Marine Battalion, Charlie Battery.  Deployed to Iraq in 2005-2006 in support of Operation Iraqi Freedom as a convoy escort assitant under 3/14 Hotel Battery",
-                "highlights": [
-                    "Deployed to Iraq as part of Operation Iraqi Freedom (OIF) in 2006."
-                ]
-            }
-        ]
+        "history": [{
+            "flavor": "military",
+            "position": "Team Lead - Interior Electrician (12R)",
+            "organization": "United States Army Reserve",
+            "url": "https://www.us.army.mil/",
+            "start": "2011-01",
+            "summary": "Currently a Team Leader for Headquarters Company in the 372nd Engineer Company.",
+            "highlights": [
+                "Team Leader responsibilities include inventory, supply, logistics operations",
+                "Driver Trainer for Platoon",
+                "Team Lead for the company’s intelligence operations during Afghanistan Deployment from May through December 2013.  Responsible for planning route operations, investigating intelligence reports, reporting all company movements and intelligence observations to higher command, and prepared daily and weekly briefs.  Ancillary skill position acquired several months prior to deployment as additional duty"
+            ]
+        }, {
+            "flavor": "military",
+            "position": "Unit Administrator (0151)",
+            "organization": "United States Marine Corps Reserve",
+            "url": "https://www.marines.mil",
+            "start": "2009-01",
+            "end": "2011-01",
+            "summary": "Lateral transfer to the Human Relations-side of the Marines, I was primarily involved in writing memorandums, preparing documentation for submittal, and assisted in training several hundred Marines to deploy to Iraq",
+            "highlights": [
+                "Maintained unit records for 150-300 Marines.",
+                "Lead multiple teams in physical training activities.",
+                "Deployed to Afghanistan in 2013",
+                "Mentored subordinate Marines in career planning, both for the military path as well as civilian career opportunities."
+            ]
+        }, {
+            "flavor": "military",
+            "position": "0621 - Field Radio Operator",
+            "organization": "United States Marine Corps Reserve",
+            "url": "https://www.marines.mil",
+            "start": "2004-10",
+            "end": "2009-01",
+            "summary": "Served in 1st Regiment, 14th Marine Battalion, Charlie Battery.  Deployed to Iraq in 2005-2006 in support of Operation Iraqi Freedom as a convoy escort assitant under 3/14 Hotel Battery",
+            "highlights": [
+                "Deployed to Iraq as part of Operation Iraqi Freedom (OIF) in 2006."
+            ]
+        }]
     },
     "skills": {
-        "sets": [
-            {
-                "name": "Java",
-                "level": "Advanced",
-                "skills": [
-                    "JAX-RS",
-                    "JAX-WS",
-                    "Jersey",
-                    "JMS",
-                    "Apache CXF",
-                    "Maven 3",
-                    "Java 7/8"
-                ]
-            },
-            {
-                "name": "Oracle Fusion Middleware 11g",
-                "level": "Advanced",
-                "skills": [
-                    "Oracle Service Bus (OSB)",
-                    "Oracle SOA Suite (SOA)",
-                    "Oracle Enterprise Manager 12c (OEMCC)",
-                    "Business Transaction Management 12c (BTM)",
-                    "SOAP",
-                    "REST"
-                ]
-            },
-            {
-                "name": "Go (Golang)",
-                "level": "Beginner",
-                "skills": [
-                    "klauern/remy",
-                    "klauern/trackello",
-                    "klauern/go-netgearlogs",
-                    "JSON",
-                    "Hugo",
-                    "Gorilla Mux",
-                    "Goxc",
-                    "Govendor",
-                    "codegangsta/cli",
-                    "spf13/cobra",
-                    "spf13/viper",
-                    "Gomail"
-                ]
-            },
-            {
-                "name": "Clojure",
-                "level": "Beginner",
-                "skills": [
-                    "lamina",
-                    "midje",
-                    "klauern/java-watcher.clj"
-                ]
-            },
-            {
-                "name": "Ruby",
-                "level": "Beginner",
-                "skills": []
-            },
-            {
-                "name": "Python",
-                "level": "Beginner",
-                "skills": []
-            },
-            {
-                "name": "SQL",
-                "level": "Intermediate",
-                "skills": []
-            }
-        ]
-    },
-    "recognition": [
-        {
-            "title": "Army Commendation Medal - 3rd Award",
-            "date": "2013-12",
-            "from": "United States Army",
-            "summary": "Awarded for running the company's intelligence team and coordinating over 30 convoy operations.  Prepared daily and weekly intelligence briefings at company and battalion levels regarding current and potential threats in the area.  Advised Soldiers, Team Leaders, and Platoons on items of interest, tactics, procedures, and countermeasures to take on travelled routes."
-        },
-        {
-            "title": "Afghanistan Campaign Medal",
-            "date": "2013-12",
-            "from": "United States Army",
-            "summary": "Awarded for serving in Operation Enduring Freedom in 2013."
-        },
-        {
-            "title": "Certificate of Commendation - 3rd Award",
-            "date": "2009-12",
-            "from": "United States Marine Corps",
-            "summary": "Awarded for organizing and leading a training effort for over 300 Marines and Sailors as part of pre-deployment training.  Gathered statistical information on required training for numerous Marines, including pass/fail rates, qualification scores, and an approved certificate for respective Unit HR to enter into their Marine's record books."
-        },
-        {
-            "title": "Iraq Campaign Medal",
-            "date": "2006-12",
-            "from": "United States Marine Corps",
-            "summary": "Awarded for deployment to Iraq in support of Operation Iraqi Freedom (OIF) in 2006."
-        }
-    ],
-    "references": [
-        {
-            "name": "Matthew Bell",
-            "flavor": "professional",
-            "private": true,
-            "contact": [
-                {
-                    "flavor": "email",
-                    "value": "matthew.j.bell1@gmail.com"
-                }
+        "sets": [{
+            "name": "Java",
+            "level": "Advanced",
+            "skills": [
+                "JAX-RS",
+                "JAX-WS",
+                "Jersey",
+                "JMS",
+                "Apache CXF",
+                "Maven 3",
+                "Java 7/8"
             ]
-        }
-    ],
-    "testimonials": [
-        {
-            "name": "Matthew Bell - Sgt U.S. Army (Ret.)",
-            "flavor": "professional",
-            "quote": "I've known Nick for several years and a tour in Afghanistan. As long as I've known him, Nick has been a hard worker that always completed his tasks in a timely manner. He's very knowledgeable in the software development field and is always looking to expand upon his litany of language knowledge to other coding languages, techniques and best practices.",
-            "private": false
-        }
-    ],
-    "interests": [
-        {
-            "name": "Family",
-            "summary": "I have a wife and 4 boys under the age of 10.  Life is exciting.",
-            "keywords": [
-                "family",
-                "children",
-                "wife",
-                "boys"
+        }, {
+            "name": "Oracle Fusion Middleware 11g",
+            "level": "Advanced",
+            "skills": [
+                "Oracle Service Bus (OSB)",
+                "Oracle SOA Suite (SOA)",
+                "Oracle Enterprise Manager 12c (OEMCC)",
+                "Business Transaction Management 12c (BTM)",
+                "SOAP",
+                "REST"
             ]
-        },
-        {
+        }, {
             "name": "Go (Golang)",
-            "summary": "I have been coding Go for the past 6 months.  It's an interesting language, which I'm attracted to for it's cross-platform deployment ease.",
-            "keywords": [
-                "Go",
-                "Golang",
-                "[klauern/remy](https://github.com/klauern/remy)",
-                "[klauern/trackello](https://github.com/klauern/trackello)"
+            "level": "Beginner",
+            "skills": [
+                "klauern/remy",
+                "klauern/trackello",
+                "klauern/go-netgearlogs",
+                "JSON",
+                "Hugo",
+                "Gorilla Mux",
+                "Goxc",
+                "Govendor",
+                "codegangsta/cli",
+                "spf13/cobra",
+                "spf13/viper",
+                "Gomail"
             ]
-        },
-        {
-            "name": "Ansible",
-            "summary": "I have a keen interest in what is often referred to as DevOps, in terms of automation of processes, testing, and deployment.  I have done a number of automation projects related to the build/patch/deploy cycle at my work, and would love to push these tools to other teams and organizations.",
-            "keywords": [
-                "Ansible"
+        }, {
+            "name": "Clojure",
+            "level": "Beginner",
+            "skills": [
+                "lamina",
+                "midje",
+                "klauern/java-watcher.clj"
             ]
-        }
-    ]
+        }, {
+            "name": "Ruby",
+            "level": "Beginner",
+            "skills": []
+        }, {
+            "name": "Python",
+            "level": "Beginner",
+            "skills": []
+        }, {
+            "name": "SQL",
+            "level": "Intermediate",
+            "skills": []
+        }]
+    },
+    "recognition": [{
+        "title": "Army Commendation Medal - 3rd Award",
+        "date": "2013-12",
+        "from": "United States Army",
+        "summary": "Awarded for running the company's intelligence team and coordinating over 30 convoy operations.  Prepared daily and weekly intelligence briefings at company and battalion levels regarding current and potential threats in the area.  Advised Soldiers, Team Leaders, and Platoons on items of interest, tactics, procedures, and countermeasures to take on travelled routes."
+    }, {
+        "title": "Afghanistan Campaign Medal",
+        "date": "2013-12",
+        "from": "United States Army",
+        "summary": "Awarded for serving in Operation Enduring Freedom in 2013."
+    }, {
+        "title": "Certificate of Commendation - 3rd Award",
+        "date": "2009-12",
+        "from": "United States Marine Corps",
+        "summary": "Awarded for organizing and leading a training effort for over 300 Marines and Sailors as part of pre-deployment training.  Gathered statistical information on required training for numerous Marines, including pass/fail rates, qualification scores, and an approved certificate for respective Unit HR to enter into their Marine's record books."
+    }, {
+        "title": "Iraq Campaign Medal",
+        "date": "2006-12",
+        "from": "United States Marine Corps",
+        "summary": "Awarded for deployment to Iraq in support of Operation Iraqi Freedom (OIF) in 2006."
+    }],
+    "references": [{
+        "name": "Matthew Bell",
+        "flavor": "professional",
+        "private": true,
+        "contact": [{
+            "flavor": "email",
+            "value": "matthew.j.bell1@gmail.com"
+        }]
+    }],
+    "testimonials": [{
+        "name": "Matthew Bell - Sgt U.S. Army (Ret.)",
+        "flavor": "professional",
+        "quote": "I've known Nick for several years and a tour in Afghanistan. As long as I've known him, Nick has been a hard worker that always completed his tasks in a timely manner. He's very knowledgeable in the software development field and is always looking to expand upon his litany of language knowledge to other coding languages, techniques and best practices.",
+        "private": false
+    }],
+    "interests": [{
+        "name": "Family",
+        "summary": "I have a wife and 4 boys under the age of 10.  Life is exciting.",
+        "keywords": [
+            "family",
+            "children",
+            "wife",
+            "boys"
+        ]
+    }, {
+        "name": "Go (Golang)",
+        "summary": "I have been coding Go for the past 6 months.  It's an interesting language, which I'm attracted to for it's cross-platform deployment ease.",
+        "keywords": [
+            "Go",
+            "Golang",
+            "[klauern/remy](https://github.com/klauern/remy)",
+            "[klauern/trackello](https://github.com/klauern/trackello)"
+        ]
+    }, {
+        "name": "Ansible",
+        "summary": "I have a keen interest in what is often referred to as DevOps, in terms of automation of processes, testing, and deployment.  I have done a number of automation projects related to the build/patch/deploy cycle at my work, and would love to push these tools to other teams and organizations.",
+        "keywords": [
+            "Ansible"
+        ]
+    }]
 }
