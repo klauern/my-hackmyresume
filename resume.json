@@ -262,37 +262,29 @@
         "summary": "Awarded for deployment to Iraq in support of Operation Iraqi Freedom (OIF) in 2006."
     }],
     "references": [{
-        "name": "Matthew Bell",
+        "name": "Matthew Bell - Sgt U.S. Army (Ret.)",
         "flavor": "professional",
         "private": true,
         "contact": [{
             "flavor": "email",
             "value": "matthew.j.bell1@gmail.com"
-        }]
-    }],
-    "testimonials": [{
-        "name": "Matthew Bell - Sgt U.S. Army (Ret.)",
-        "flavor": "professional",
-        "quote": "I've known Nick for several years and a tour in Afghanistan. As long as I've known him, Nick has been a hard worker that always completed his tasks in a timely manner. He's very knowledgeable in the software development field and is always looking to expand upon his litany of language knowledge to other coding languages, techniques and best practices.",
-        "private": false
+        }],
+        "reference": "I've known Nick for several years and a tour in Afghanistan. As long as I've known him, Nick has been a hard worker that always completed his tasks in a timely manner. He's very knowledgeable in the software development field and is always looking to expand upon his litany of language knowledge to other coding languages, techniques and best practices."
     }],
     "interests": [{
         "name": "Family",
         "summary": "I have a wife and 4 boys under the age of 10.  Life is exciting.",
         "keywords": [
-            "family",
-            "children",
-            "wife",
-            "boys"
+            "cub scouts"
         ]
     }, {
         "name": "Go (Golang)",
-        "summary": "I have been coding Go for the past 6 months.  It's an interesting language, which I'm attracted to for it's cross-platform deployment ease.",
+        "summary": "I have been coding Go for about a year.  It's an interesting language, which I'm attracted to for it's cross-platform deployment ease.",
         "keywords": [
             "Go",
             "Golang",
-            "[klauern/remy](https://github.com/klauern/remy)",
-            "[klauern/trackello](https://github.com/klauern/trackello)"
+            "github.com/klauern/remy",
+            "github.com/klauern/trackello"
         ]
     }, {
         "name": "Ansible",
